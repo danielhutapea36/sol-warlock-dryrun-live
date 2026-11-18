@@ -1,17 +1,17 @@
 {
-  "generatedWib": "2026-11-18 22:34:24 WIB",
+  "generatedWib": "2026-11-18 22:34:35 WIB",
   "date": "2026-11-18",
   "note": "Blokir POSITION_USDC=500 teratasi 18 Nov 2026 19:38 WIB: POSITION_USDC diubah menjadi 100 via paper/settings.json (satu-satunya setting yang diubah, atas izin user); jendela 7 hari di-reset dan mulai baru 19:38:32 WIB. Kedua bot sudah membuka posisi paper pertama di Rocco-SOL (v1.9 19:39:00 WIB, v1.8 19:39:56 WIB).",
   "v18": {
     "label": "v1.8",
     "status": "active",
     "pid": "1679",
-    "sinceWib": "2026-11-18 21:29:13 WIB",
+    "sinceWib": "2026-11-18 14:29:13 WIB",
     "window": "2026-11-18 19:38:32 WIB -> 2026-11-25 19:38:32 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 100.6363,
-    "pnlUsd": 0.6363,
-    "pnlPct": 0.6363,
+    "paperValueUsd": 100.6357,
+    "pnlUsd": 0.6357,
+    "pnlPct": 0.6357,
     "openPositions": {
       "count": 1,
       "names": [
@@ -45,9 +45,9 @@
     "realizedPnlUsd": 1.0556,
     "winRate": 100,
     "avgNetPnlUsd": 0.5278,
-    "equityPnlSol": 0.019011155321269735,
+    "equityPnlSol": 0.019003701736773237,
     "solUsd": 73.79,
-    "positionValueUsd": 99.480688,
+    "positionValueUsd": 99.480138,
     "leftoverSol": 0.23844036,
     "openPosition": {
       "name": "STANK-SOL",
@@ -110,18 +110,18 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-18 22:34:24 WIB"
+    "lastUpdated": "2026-11-18 22:34:35 WIB"
   },
   "v19": {
     "label": "v1.9",
     "status": "active",
     "pid": "1723",
-    "sinceWib": "2026-11-18 21:29:15 WIB",
+    "sinceWib": "2026-11-18 14:29:15 WIB",
     "window": "2026-11-18 19:38:32 WIB -> 2026-11-25 19:38:32 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 100.5553,
-    "pnlUsd": 0.5553,
-    "pnlPct": 0.5553,
+    "paperValueUsd": 100.5416,
+    "pnlUsd": 0.5416,
+    "pnlPct": 0.5416,
     "openPositions": {
       "count": 1,
       "names": [
@@ -156,9 +156,9 @@
     "realizedPnlUsd": 0.9952,
     "winRate": 100,
     "avgNetPnlUsd": 0.3317,
-    "equityPnlSol": 0.017913892819575894,
+    "equityPnlSol": 0.017727770038711288,
     "solUsd": 73.79,
-    "positionValueUsd": 99.460106,
+    "positionValueUsd": 99.446372,
     "leftoverSol": 0.23844036,
     "openPosition": {
       "name": "STANK-SOL",
@@ -231,6 +231,6 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-18 22:34:24 WIB"
+    "lastUpdated": "2026-11-18 22:34:35 WIB"
   }
 }
