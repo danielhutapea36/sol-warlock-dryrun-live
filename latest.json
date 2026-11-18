@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-18 23:39:34 WIB",
+  "generatedWib": "2026-11-18 23:44:33 WIB",
   "date": "2026-11-18",
   "note": "Blokir POSITION_USDC=500 teratasi 18 Nov 2026 19:38 WIB: POSITION_USDC diubah menjadi 100 via paper/settings.json (satu-satunya setting yang diubah, atas izin user); jendela 7 hari di-reset dan mulai baru 19:38:32 WIB. Kedua bot sudah membuka posisi paper pertama di Rocco-SOL (v1.9 19:39:00 WIB, v1.8 19:39:56 WIB).",
   "v18": {
@@ -9,9 +9,9 @@
     "sinceWib": "2026-11-18 16:29:59 WIB",
     "window": "2026-11-18 19:38:32 WIB -> 2026-11-25 19:38:32 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 98.6953,
-    "pnlUsd": -1.3047,
-    "pnlPct": -1.3047,
+    "paperValueUsd": 98.2658,
+    "pnlUsd": -1.7342,
+    "pnlPct": -1.7342,
     "openPositions": {
       "count": 1,
       "names": [
@@ -33,10 +33,10 @@
     "reshapes": 5,
     "wins": 2,
     "losses": 0,
-    "lastScanWib": "2026-11-18 23:35:16 WIB",
+    "lastScanWib": "2026-11-18 23:40:18 WIB",
     "lastScanFetched": 150,
-    "lastScanPass": 2,
-    "openTertundaToday": 37,
+    "lastScanPass": 1,
+    "openTertundaToday": 38,
     "fetchFailedTotal": 0,
     "cycleErrorsTotal": 0,
     "exitReasonsSeen": {
@@ -45,9 +45,9 @@
     "realizedPnlUsd": 1.0556,
     "winRate": 100,
     "avgNetPnlUsd": 0.5278,
-    "equityPnlSol": 0.015191681906926657,
-    "solUsd": 72.57,
-    "positionValueUsd": 97.33964817954674,
+    "equityPnlSol": 0.013954723810472025,
+    "solUsd": 72.32,
+    "positionValueUsd": 96.91019119025522,
     "leftoverSol": 0.23824036,
     "openPosition": {
       "name": "STANK-SOL",
@@ -86,26 +86,26 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 96
+        "count": 106
       },
       {
         "reason": "tvl<$10000",
-        "count": 27
+        "count": 26
       },
       {
         "reason": "bin_step outside 80-400",
-        "count": 5
+        "count": 3
       },
       {
         "reason": "tvl>$100000",
-        "count": 5
+        "count": 3
       },
       {
-        "reason": "quote not SOL/USDC",
-        "count": 2
+        "reason": "age<0.5h",
+        "count": 1
       },
       {
-        "reason": "vol spike 1h=220972 > 50% of 24h=220972",
+        "reason": "vol spike 1h=98354 > 50% of 24h=195853",
         "count": 1
       }
     ],
@@ -113,13 +113,9 @@
       {
         "pool": "Rocco-SOL",
         "skipped": "Saldo USDC tidak cukup"
-      },
-      {
-        "pool": ":3-SOL",
-        "skipped": "Saldo USDC tidak cukup"
       }
     ],
-    "lastUpdated": "2026-11-18 23:39:34 WIB"
+    "lastUpdated": "2026-11-18 23:44:33 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -128,9 +124,9 @@
     "sinceWib": "2026-11-18 16:30:01 WIB",
     "window": "2026-11-18 19:38:32 WIB -> 2026-11-25 19:38:32 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 98.5476,
-    "pnlUsd": -1.4524,
-    "pnlPct": -1.4524,
+    "paperValueUsd": 98.1966,
+    "pnlUsd": -1.8034,
+    "pnlPct": -1.8034,
     "openPositions": {
       "count": 1,
       "names": [
@@ -152,10 +148,10 @@
     "reshapes": 7,
     "wins": 3,
     "losses": 0,
-    "lastScanWib": "2026-11-18 23:35:16 WIB",
+    "lastScanWib": "2026-11-18 23:40:18 WIB",
     "lastScanFetched": 150,
-    "lastScanPass": 3,
-    "openTertundaToday": 48,
+    "lastScanPass": 2,
+    "openTertundaToday": 50,
     "fetchFailedTotal": 0,
     "cycleErrorsTotal": 0,
     "exitReasonsSeen": {
@@ -165,9 +161,9 @@
     "realizedPnlUsd": 0.9952,
     "winRate": 100,
     "avgNetPnlUsd": 0.3317,
-    "equityPnlSol": 0.013156783095918723,
-    "solUsd": 72.57,
-    "positionValueUsd": 97.25236057283189,
+    "equityPnlSol": 0.01299745394473617,
+    "solUsd": 72.32,
+    "positionValueUsd": 96.90134643356521,
     "leftoverSol": 0.23824036,
     "openPosition": {
       "name": "STANK-SOL",
@@ -216,26 +212,26 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 96
+        "count": 106
       },
       {
         "reason": "tvl<$10000",
-        "count": 27
+        "count": 26
       },
       {
         "reason": "bin_step outside 80-400",
-        "count": 5
+        "count": 3
       },
       {
         "reason": "tvl>$100000",
-        "count": 5
+        "count": 3
       },
       {
-        "reason": "quote not SOL/USDC",
-        "count": 2
+        "reason": "age<0.5h",
+        "count": 1
       },
       {
-        "reason": "vol spike 1h=220972 > 50% of 24h=220972",
+        "reason": "vol spike 1h=98354 > 50% of 24h=195853",
         "count": 1
       }
     ],
@@ -245,14 +241,10 @@
         "skipped": "Saldo USDC tidak cukup"
       },
       {
-        "pool": ":3-SOL",
-        "skipped": "Saldo USDC tidak cukup"
-      },
-      {
         "pool": "HOGE-SOL",
         "skipped": "Saldo USDC tidak cukup"
       }
     ],
-    "lastUpdated": "2026-11-18 23:39:34 WIB"
+    "lastUpdated": "2026-11-18 23:44:33 WIB"
   }
 }
