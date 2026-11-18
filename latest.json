@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-19 00:24:33 WIB",
+  "generatedWib": "2026-11-19 00:29:32 WIB",
   "date": "2026-11-19",
   "note": "Blokir POSITION_USDC=500 teratasi 18 Nov 2026 19:38 WIB: POSITION_USDC diubah menjadi 100 via paper/settings.json (satu-satunya setting yang diubah, atas izin user); jendela 7 hari di-reset dan mulai baru 19:38:32 WIB. Kedua bot sudah membuka posisi paper pertama di Rocco-SOL (v1.9 19:39:00 WIB, v1.8 19:39:56 WIB).",
   "v18": {
@@ -31,9 +31,9 @@
     "reshapes": 6,
     "wins": 2,
     "losses": 1,
-    "lastScanWib": "2026-11-19 00:20:52 WIB",
+    "lastScanWib": "2026-11-19 00:26:46 WIB",
     "lastScanFetched": 144,
-    "lastScanPass": 1,
+    "lastScanPass": 0,
     "openTertundaToday": 5,
     "fetchFailedTotal": 0,
     "cycleErrorsTotal": 0,
@@ -44,8 +44,8 @@
     "realizedPnlUsd": 1.0326,
     "winRate": 66.7,
     "avgNetPnlUsd": 0.3442,
-    "equityPnlSol": 0.0322199529336995,
-    "solUsd": 73.37,
+    "equityPnlSol": 0.02401113630150631,
+    "solUsd": 73.81,
     "positionValueUsd": 0,
     "leftoverSol": 0,
     "openPosition": null,
@@ -84,11 +84,11 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 111
+        "count": 110
       },
       {
         "reason": "tvl<$10000",
-        "count": 20
+        "count": 17
       },
       {
         "reason": "tvl>$100000",
@@ -96,24 +96,19 @@
       },
       {
         "reason": "bin_step outside 80-400",
-        "count": 2
+        "count": 3
       },
       {
         "reason": "quote not SOL/USDC",
         "count": 2
       },
       {
-        "reason": "fee turnover 24h 65% > 60% (tvl $20946 < $25000)",
+        "reason": "vol spike 1h=32959 > 50% of 24h=42659",
         "count": 1
       }
     ],
-    "lastScanOpenResults": [
-      {
-        "pool": "Rocco-SOL",
-        "skipped": "Saldo USDC tidak cukup"
-      }
-    ],
-    "lastUpdated": "2026-11-19 00:24:33 WIB"
+    "lastScanOpenResults": [],
+    "lastUpdated": "2026-11-19 00:29:32 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -144,9 +139,9 @@
     "reshapes": 8,
     "wins": 3,
     "losses": 1,
-    "lastScanWib": "2026-11-19 00:21:08 WIB",
-    "lastScanFetched": 143,
-    "lastScanPass": 1,
+    "lastScanWib": "2026-11-19 00:26:55 WIB",
+    "lastScanFetched": 144,
+    "lastScanPass": 0,
     "openTertundaToday": 5,
     "fetchFailedTotal": 1,
     "cycleErrorsTotal": 0,
@@ -157,8 +152,8 @@
     "realizedPnlUsd": -1.1769,
     "winRate": 75,
     "avgNetPnlUsd": -0.2942,
-    "equityPnlSol": 0.0015544506216897958,
-    "solUsd": 73.4,
+    "equityPnlSol": -0.0042897750440220594,
+    "solUsd": 73.72,
     "positionValueUsd": 0,
     "leftoverSol": 0,
     "openPosition": null,
@@ -207,18 +202,18 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 109
+        "count": 110
       },
       {
         "reason": "tvl<$10000",
-        "count": 20
-      },
-      {
-        "reason": "bin_step outside 80-400",
-        "count": 3
+        "count": 17
       },
       {
         "reason": "tvl>$100000",
+        "count": 3
+      },
+      {
+        "reason": "bin_step outside 80-400",
         "count": 3
       },
       {
@@ -226,16 +221,11 @@
         "count": 2
       },
       {
-        "reason": "fee turnover 24h 65% > 60% (tvl $20985 < $25000)",
+        "reason": "vol spike 1h=32959 > 50% of 24h=42659",
         "count": 1
       }
     ],
-    "lastScanOpenResults": [
-      {
-        "pool": "Rocco-SOL",
-        "skipped": "Saldo USDC tidak cukup"
-      }
-    ],
-    "lastUpdated": "2026-11-19 00:24:33 WIB"
+    "lastScanOpenResults": [],
+    "lastUpdated": "2026-11-19 00:29:32 WIB"
   }
 }
