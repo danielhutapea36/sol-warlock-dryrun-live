@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-19 02:39:33 WIB",
+  "generatedWib": "2026-11-19 02:44:32 WIB",
   "date": "2026-11-19",
   "note": "Blokir POSITION_USDC=500 teratasi 18 Nov 2026 19:38 WIB: POSITION_USDC diubah menjadi 100 via paper/settings.json (satu-satunya setting yang diubah, atas izin user); jendela 7 hari di-reset dan mulai baru 19:38:32 WIB. Kedua bot sudah membuka posisi paper pertama di Rocco-SOL (v1.9 19:39:00 WIB, v1.8 19:39:56 WIB).",
   "v18": {
@@ -9,9 +9,9 @@
     "sinceWib": "2026-11-18 18:29:05 WIB",
     "window": "2026-11-18 19:38:32 WIB -> 2026-11-25 19:38:32 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 96.5296,
-    "pnlUsd": -3.4704,
-    "pnlPct": -3.4704,
+    "paperValueUsd": 97.5672,
+    "pnlUsd": -2.4328,
+    "pnlPct": -2.4328,
     "openPositions": {
       "count": 1,
       "names": [
@@ -33,10 +33,10 @@
     "reshapes": 11,
     "wins": 2,
     "losses": 1,
-    "lastScanWib": "2026-11-19 02:35:28 WIB",
-    "lastScanFetched": 149,
+    "lastScanWib": "2026-11-19 02:40:35 WIB",
+    "lastScanFetched": 152,
     "lastScanPass": 1,
-    "openTertundaToday": 24,
+    "openTertundaToday": 25,
     "fetchFailedTotal": 2,
     "cycleErrorsTotal": 0,
     "exitReasonsSeen": {
@@ -46,9 +46,9 @@
     "realizedPnlUsd": 1.0326,
     "winRate": 66.7,
     "avgNetPnlUsd": 0.3442,
-    "equityPnlSol": -0.02465594364557422,
-    "solUsd": 73.12,
-    "positionValueUsd": 95.2969771946109,
+    "equityPnlSol": -0.011013147086741615,
+    "solUsd": 73.15,
+    "positionValueUsd": 96.33455235569365,
     "leftoverSol": 0.23794036,
     "openPosition": {
       "name": "Rocco-SOL",
@@ -97,7 +97,7 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 112
+        "count": 115
       },
       {
         "reason": "tvl<$10000",
@@ -112,7 +112,7 @@
         "count": 2
       },
       {
-        "reason": "vol spike 1h=215775 > 50% of 24h=215775",
+        "reason": "vol spike 1h=218366 > 50% of 24h=225915",
         "count": 1
       },
       {
@@ -126,7 +126,7 @@
         "skipped": "Saldo USDC tidak cukup"
       }
     ],
-    "lastUpdated": "2026-11-19 02:39:33 WIB"
+    "lastUpdated": "2026-11-19 02:44:32 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -157,8 +157,8 @@
     "reshapes": 8,
     "wins": 3,
     "losses": 1,
-    "lastScanWib": "2026-11-19 02:35:52 WIB",
-    "lastScanFetched": 149,
+    "lastScanWib": "2026-11-19 02:41:00 WIB",
+    "lastScanFetched": 152,
     "lastScanPass": 0,
     "openTertundaToday": 22,
     "fetchFailedTotal": 0,
@@ -170,8 +170,8 @@
     "realizedPnlUsd": -1.1769,
     "winRate": 75,
     "avgNetPnlUsd": -0.2942,
-    "equityPnlSol": 0.006525298997040352,
-    "solUsd": 73.13,
+    "equityPnlSol": 0.006155829595505313,
+    "solUsd": 73.15,
     "positionValueUsd": 0,
     "leftoverSol": 0,
     "openPosition": null,
@@ -220,7 +220,7 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 113
+        "count": 114
       },
       {
         "reason": "tvl<$10000",
@@ -235,16 +235,16 @@
         "count": 2
       },
       {
-        "reason": "vol spike 1h=218879 > 50% of 24h=218879",
+        "reason": "vol spike 1h=218403 > 50% of 24h=225952",
         "count": 1
       },
       {
-        "reason": "bin_step outside 80-400",
+        "reason": "fee turnover 24h 96% > 60% (tvl $10029 < $25000)",
         "count": 1
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-19 02:39:33 WIB"
+    "lastUpdated": "2026-11-19 02:44:32 WIB"
   },
   "v3": {
     "label": "VAULT",
@@ -293,7 +293,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-19 02:39:33 WIB",
+    "lastUpdated": "2026-11-19 02:44:32 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: VAULT SCREEN_ONLY berjalan (cron 30 mnt s.d. 20 Nov 00:45 WIB, lalu DRY_RUN 24 jam otomatis); circuit breaker lolos, 52 unit test lulus; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -365,7 +365,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-19 02:39:33 WIB",
+    "lastUpdated": "2026-11-19 02:44:32 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: SHADOW smoke test SCREEN_ONLY + engine --once lolos; watchlist wallet 0/5 terverifikasi — derivasi on-chain (WATCHLIST.md §5.2) diputuskan 19 Nov 01:00 WIB, gate bot-holders SHADOW advisory; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -395,15 +395,15 @@
       "v18",
       "v19"
     ],
-    "equityUsd": 195.3527,
-    "pnlUsd": -4.6473,
-    "pnlPct": -2.3237,
+    "equityUsd": 196.3903,
+    "pnlUsd": -3.6097,
+    "pnlPct": -1.8049,
     "realizedPnlUsd": -0.1443,
     "wins": 5,
     "losses": 2,
     "winRate": 71.4,
     "closesTotal": 7,
-    "asOf": "2026-11-19 02:39:33 WIB"
+    "asOf": "2026-11-19 02:44:32 WIB"
   },
   "leaderboard": {
     "order": [
@@ -411,6 +411,6 @@
       "v18"
     ],
     "leader": "v19",
-    "asOf": "2026-11-19 02:39:33 WIB"
+    "asOf": "2026-11-19 02:44:32 WIB"
   }
 }
