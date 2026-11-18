@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-18 22:14:32 WIB",
+  "generatedWib": "2026-11-18 22:19:34 WIB",
   "date": "2026-11-18",
   "note": "Blokir POSITION_USDC=500 teratasi 18 Nov 2026 19:38 WIB: POSITION_USDC diubah menjadi 100 via paper/settings.json (satu-satunya setting yang diubah, atas izin user); jendela 7 hari di-reset dan mulai baru 19:38:32 WIB. Kedua bot sudah membuka posisi paper pertama di Rocco-SOL (v1.9 19:39:00 WIB, v1.8 19:39:56 WIB).",
   "v18": {
@@ -9,9 +9,9 @@
     "sinceWib": "2026-11-18 14:29:13 WIB",
     "window": "2026-11-18 19:38:32 WIB -> 2026-11-25 19:38:32 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 100.739,
-    "pnlUsd": 0.739,
-    "pnlPct": 0.739,
+    "paperValueUsd": 100.7907,
+    "pnlUsd": 0.7907,
+    "pnlPct": 0.7907,
     "openPositions": {
       "count": 1,
       "names": [
@@ -33,8 +33,8 @@
     "reshapes": 2,
     "wins": 2,
     "losses": 0,
-    "lastScanWib": "2026-11-18 22:10:18 WIB",
-    "lastScanFetched": 148,
+    "lastScanWib": "2026-11-18 22:15:21 WIB",
+    "lastScanFetched": 146,
     "lastScanPass": 0,
     "openTertundaToday": 22,
     "fetchFailedTotal": 0,
@@ -45,9 +45,9 @@
     "realizedPnlUsd": 1.0556,
     "winRate": 100,
     "avgNetPnlUsd": 0.5278,
-    "equityPnlSol": 0.0165286250454324,
-    "solUsd": 74,
-    "positionValueUsd": 99.583383,
+    "equityPnlSol": 0.015389033058708756,
+    "solUsd": 74.1,
+    "positionValueUsd": 99.63507299999999,
     "leftoverSol": 0.23844036,
     "openPosition": {
       "name": "STANK-SOL",
@@ -90,14 +90,10 @@
       },
       {
         "reason": "tvl<$10000",
-        "count": 21
+        "count": 20
       },
       {
         "reason": "TVL $0",
-        "count": 1
-      },
-      {
-        "reason": "bin_step outside 80-400",
         "count": 1
       },
       {
@@ -106,7 +102,7 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-18 22:14:32 WIB"
+    "lastUpdated": "2026-11-18 22:19:34 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -115,9 +111,9 @@
     "sinceWib": "2026-11-18 14:29:15 WIB",
     "window": "2026-11-18 19:38:32 WIB -> 2026-11-25 19:38:32 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 100.6314,
-    "pnlUsd": 0.6314,
-    "pnlPct": 0.6314,
+    "paperValueUsd": 100.6965,
+    "pnlUsd": 0.6965,
+    "pnlPct": 0.6965,
     "openPositions": {
       "count": 1,
       "names": [
@@ -139,8 +135,8 @@
     "reshapes": 4,
     "wins": 3,
     "losses": 0,
-    "lastScanWib": "2026-11-18 22:10:18 WIB",
-    "lastScanFetched": 148,
+    "lastScanWib": "2026-11-18 22:15:21 WIB",
+    "lastScanFetched": 146,
     "lastScanPass": 0,
     "openTertundaToday": 25,
     "fetchFailedTotal": 0,
@@ -152,9 +148,9 @@
     "realizedPnlUsd": 0.9952,
     "winRate": 100,
     "avgNetPnlUsd": 0.3317,
-    "equityPnlSol": 0.015074706126513515,
-    "solUsd": 74,
-    "positionValueUsd": 99.536178,
+    "equityPnlSol": 0.0141181558657264,
+    "solUsd": 74.1,
+    "positionValueUsd": 99.601286,
     "leftoverSol": 0.23844036,
     "openPosition": {
       "name": "STANK-SOL",
@@ -207,14 +203,10 @@
       },
       {
         "reason": "tvl<$10000",
-        "count": 21
+        "count": 20
       },
       {
         "reason": "TVL $0",
-        "count": 1
-      },
-      {
-        "reason": "bin_step outside 80-400",
         "count": 1
       },
       {
@@ -223,6 +215,6 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-18 22:14:32 WIB"
+    "lastUpdated": "2026-11-18 22:19:34 WIB"
   }
 }
