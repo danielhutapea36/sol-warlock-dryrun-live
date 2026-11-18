@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-18 22:44:37 WIB",
+  "generatedWib": "2026-11-18 22:49:31 WIB",
   "date": "2026-11-18",
   "note": "Blokir POSITION_USDC=500 teratasi 18 Nov 2026 19:38 WIB: POSITION_USDC diubah menjadi 100 via paper/settings.json (satu-satunya setting yang diubah, atas izin user); jendela 7 hari di-reset dan mulai baru 19:38:32 WIB. Kedua bot sudah membuka posisi paper pertama di Rocco-SOL (v1.9 19:39:00 WIB, v1.8 19:39:56 WIB).",
   "v18": {
@@ -9,9 +9,9 @@
     "sinceWib": "2026-11-18 14:29:13 WIB",
     "window": "2026-11-18 19:38:32 WIB -> 2026-11-25 19:38:32 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 99.8922,
-    "pnlUsd": -0.1078,
-    "pnlPct": -0.1078,
+    "paperValueUsd": 99.5541,
+    "pnlUsd": -0.4459,
+    "pnlPct": -0.4459,
     "openPositions": {
       "count": 1,
       "names": [
@@ -33,8 +33,8 @@
     "reshapes": 3,
     "wins": 2,
     "losses": 0,
-    "lastScanWib": "2026-11-18 22:41:06 WIB",
-    "lastScanFetched": 151,
+    "lastScanWib": "2026-11-18 22:46:09 WIB",
+    "lastScanFetched": 154,
     "lastScanPass": 0,
     "openTertundaToday": 22,
     "fetchFailedTotal": 0,
@@ -45,9 +45,9 @@
     "realizedPnlUsd": 1.0556,
     "winRate": 100,
     "avgNetPnlUsd": 0.5278,
-    "equityPnlSol": 0.014823751776696259,
-    "solUsd": 73.47,
-    "positionValueUsd": 98.636617,
+    "equityPnlSol": 0.013178304310087707,
+    "solUsd": 73.31,
+    "positionValueUsd": 98.298448,
     "leftoverSol": 0.23834036,
     "openPosition": {
       "name": "STANK-SOL",
@@ -86,7 +86,7 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 126
+        "count": 129
       },
       {
         "reason": "tvl<$10000",
@@ -105,12 +105,12 @@
         "count": 1
       },
       {
-        "reason": "anti PvP: kembar dengan GitC…hBvR (rockstar, lebih besar) +2 lain",
+        "reason": "anti PvP: kembar dengan GitC…hBvR (rockstar, lebih besar) +1 lain",
         "count": 1
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-18 22:44:37 WIB"
+    "lastUpdated": "2026-11-18 22:49:31 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -119,9 +119,9 @@
     "sinceWib": "2026-11-18 14:29:15 WIB",
     "window": "2026-11-18 19:38:32 WIB -> 2026-11-25 19:38:32 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 99.8083,
-    "pnlUsd": -0.1917,
-    "pnlPct": -0.1917,
+    "paperValueUsd": 99.4753,
+    "pnlUsd": -0.5247,
+    "pnlPct": -0.5247,
     "openPositions": {
       "count": 1,
       "names": [
@@ -143,8 +143,8 @@
     "reshapes": 5,
     "wins": 3,
     "losses": 0,
-    "lastScanWib": "2026-11-18 22:41:06 WIB",
-    "lastScanFetched": 151,
+    "lastScanWib": "2026-11-18 22:46:10 WIB",
+    "lastScanFetched": 154,
     "lastScanPass": 0,
     "openTertundaToday": 25,
     "fetchFailedTotal": 0,
@@ -156,9 +156,9 @@
     "realizedPnlUsd": 0.9952,
     "winRate": 100,
     "avgNetPnlUsd": 0.3317,
-    "equityPnlSol": 0.014977611384632272,
-    "solUsd": 73.4,
-    "positionValueUsd": 98.61312099999999,
+    "equityPnlSol": 0.01210353961222932,
+    "solUsd": 73.31,
+    "positionValueUsd": 98.280042,
     "leftoverSol": 0.23834036,
     "openPosition": {
       "name": "STANK-SOL",
@@ -207,7 +207,7 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 126
+        "count": 129
       },
       {
         "reason": "tvl<$10000",
@@ -226,11 +226,11 @@
         "count": 1
       },
       {
-        "reason": "anti PvP: kembar dengan C9vP…pump (ROCKSTAR, lebih besar) +2 lain",
+        "reason": "anti PvP: kembar dengan C9vP…pump (ROCKSTAR, lebih besar) +1 lain",
         "count": 1
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-18 22:44:37 WIB"
+    "lastUpdated": "2026-11-18 22:49:31 WIB"
   }
 }
