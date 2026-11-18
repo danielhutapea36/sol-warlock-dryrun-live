@@ -1,6 +1,6 @@
 {
-  "generatedWib": "2026-11-18 23:59:33 WIB",
-  "date": "2026-11-18",
+  "generatedWib": "2026-11-19 00:04:32 WIB",
+  "date": "2026-11-19",
   "note": "Blokir POSITION_USDC=500 teratasi 18 Nov 2026 19:38 WIB: POSITION_USDC diubah menjadi 100 via paper/settings.json (satu-satunya setting yang diubah, atas izin user); jendela 7 hari di-reset dan mulai baru 19:38:32 WIB. Kedua bot sudah membuka posisi paper pertama di Rocco-SOL (v1.9 19:39:00 WIB, v1.8 19:39:56 WIB).",
   "v18": {
     "label": "v1.8",
@@ -9,34 +9,34 @@
     "sinceWib": "2026-11-18 16:29:59 WIB",
     "window": "2026-11-18 19:38:32 WIB -> 2026-11-25 19:38:32 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 98.2962,
-    "pnlUsd": -1.7038,
-    "pnlPct": -1.7038,
+    "paperValueUsd": 98.9488,
+    "pnlUsd": -1.0512,
+    "pnlPct": -1.0512,
     "openPositions": {
       "count": 1,
       "names": [
         "STANK-SOL"
       ]
     },
-    "closesToday": 2,
+    "closesToday": 0,
     "closesTotal": 2,
     "quotedCloses": 2,
     "unquotedCloses": 0,
-    "closesTodayQuoted": 2,
+    "closesTodayQuoted": 0,
     "closesTodayUnquoted": 0,
     "tpTriggered": 2,
     "slTriggered": 0,
     "staleTriggered": 0,
     "feesUsdTotal": 0.6909,
-    "feesUsdToday": 0.6909,
+    "feesUsdToday": 0.0,
     "unquotedPnlUsd": 0,
-    "reshapes": 5,
+    "reshapes": 6,
     "wins": 2,
     "losses": 0,
-    "lastScanWib": "2026-11-18 23:55:34 WIB",
-    "lastScanFetched": 146,
+    "lastScanWib": "2026-11-19 00:00:38 WIB",
+    "lastScanFetched": 147,
     "lastScanPass": 1,
-    "openTertundaToday": 41,
+    "openTertundaToday": 1,
     "fetchFailedTotal": 0,
     "cycleErrorsTotal": 0,
     "exitReasonsSeen": {
@@ -45,10 +45,10 @@
     "realizedPnlUsd": 1.0556,
     "winRate": 100,
     "avgNetPnlUsd": 0.5278,
-    "equityPnlSol": 0.012123110461415454,
-    "solUsd": 72.44,
-    "positionValueUsd": 96.94056077056084,
-    "leftoverSol": 0.23824036,
+    "equityPnlSol": 0.00824379067411396,
+    "solUsd": 73.13,
+    "positionValueUsd": 97.5931492963444,
+    "leftoverSol": 0.23814036,
     "openPosition": {
       "name": "STANK-SOL",
       "pool": "91iHWaWXneUyoNDJhSno7ezxQg1VW5P6PdarNGyFfPCz",
@@ -59,7 +59,7 @@
       "maxBinId": -460,
       "nBins": 70,
       "entryActiveBin": -460,
-      "reshapes": 2
+      "reshapes": 3
     },
     "recentCloses": [
       {
@@ -86,26 +86,26 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 105
+        "count": 107
       },
       {
         "reason": "tvl<$10000",
-        "count": 23
+        "count": 24
+      },
+      {
+        "reason": "bin_step outside 80-400",
+        "count": 4
       },
       {
         "reason": "tvl>$100000",
         "count": 4
       },
       {
-        "reason": "bin_step outside 80-400",
-        "count": 3
-      },
-      {
         "reason": "quote not SOL/USDC",
-        "count": 3
+        "count": 2
       },
       {
-        "reason": "vol spike 1h=195831 > 50% of 24h=223426",
+        "reason": "vol spike 1h=196840 > 50% of 24h=224435",
         "count": 1
       }
     ],
@@ -115,7 +115,7 @@
         "skipped": "Saldo USDC tidak cukup"
       }
     ],
-    "lastUpdated": "2026-11-18 23:59:33 WIB"
+    "lastUpdated": "2026-11-19 00:04:32 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -124,34 +124,34 @@
     "sinceWib": "2026-11-18 16:30:01 WIB",
     "window": "2026-11-18 19:38:32 WIB -> 2026-11-25 19:38:32 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 98.2268,
-    "pnlUsd": -1.7732,
-    "pnlPct": -1.7732,
+    "paperValueUsd": 98.9026,
+    "pnlUsd": -1.0974,
+    "pnlPct": -1.0974,
     "openPositions": {
       "count": 1,
       "names": [
         "STANK-SOL"
       ]
     },
-    "closesToday": 3,
+    "closesToday": 0,
     "closesTotal": 3,
     "quotedCloses": 3,
     "unquotedCloses": 0,
-    "closesTodayQuoted": 3,
+    "closesTodayQuoted": 0,
     "closesTodayUnquoted": 0,
     "tpTriggered": 2,
     "slTriggered": 0,
     "staleTriggered": 0,
     "feesUsdTotal": 1.1997,
-    "feesUsdToday": 1.1997,
+    "feesUsdToday": 0.0,
     "unquotedPnlUsd": 0,
-    "reshapes": 7,
+    "reshapes": 8,
     "wins": 3,
     "losses": 0,
-    "lastScanWib": "2026-11-18 23:55:40 WIB",
-    "lastScanFetched": 146,
+    "lastScanWib": "2026-11-19 00:00:44 WIB",
+    "lastScanFetched": 147,
     "lastScanPass": 1,
-    "openTertundaToday": 55,
+    "openTertundaToday": 1,
     "fetchFailedTotal": 1,
     "cycleErrorsTotal": 0,
     "exitReasonsSeen": {
@@ -161,10 +161,10 @@
     "realizedPnlUsd": 0.9952,
     "winRate": 100,
     "avgNetPnlUsd": 0.3317,
-    "equityPnlSol": 0.01116547337298135,
-    "solUsd": 72.44,
-    "positionValueUsd": 96.93157453987467,
-    "leftoverSol": 0.23824036,
+    "equityPnlSol": 0.01243814279269806,
+    "solUsd": 72.87,
+    "positionValueUsd": 97.60738300000001,
+    "leftoverSol": 0.23814036,
     "openPosition": {
       "name": "STANK-SOL",
       "pool": "91iHWaWXneUyoNDJhSno7ezxQg1VW5P6PdarNGyFfPCz",
@@ -175,7 +175,7 @@
       "maxBinId": -460,
       "nBins": 70,
       "entryActiveBin": -460,
-      "reshapes": 2
+      "reshapes": 3
     },
     "recentCloses": [
       {
@@ -212,26 +212,26 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 105
+        "count": 107
       },
       {
         "reason": "tvl<$10000",
-        "count": 23
+        "count": 24
+      },
+      {
+        "reason": "bin_step outside 80-400",
+        "count": 4
       },
       {
         "reason": "tvl>$100000",
         "count": 4
       },
       {
-        "reason": "bin_step outside 80-400",
-        "count": 3
-      },
-      {
         "reason": "quote not SOL/USDC",
-        "count": 3
+        "count": 2
       },
       {
-        "reason": "vol spike 1h=195831 > 50% of 24h=223426",
+        "reason": "vol spike 1h=196840 > 50% of 24h=224435",
         "count": 1
       }
     ],
@@ -241,6 +241,6 @@
         "skipped": "Saldo USDC tidak cukup"
       }
     ],
-    "lastUpdated": "2026-11-18 23:59:33 WIB"
+    "lastUpdated": "2026-11-19 00:04:32 WIB"
   }
 }
