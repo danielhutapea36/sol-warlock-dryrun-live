@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-19 19:39:34 WIB",
+  "generatedWib": "2026-11-19 19:44:31 WIB",
   "date": "2026-11-19",
   "note": "Reset ke-2 pada 19 Nov 2026 07:36:54 WIB (persetujuan user): POSITION_USDC 100 -> 30 via paper/settings.json kedua bot; modal awal tetap 100 USDC, maks 3 posisi $30 per bot. Jendela lama 18 Nov 19:38 -> 25 Nov 19:38 WIB dibatalkan (~12 jam, v1.8 +$9,11 / v1.9 -$1,18, 8 close) dan diarsipkan di dry-run/archive/2026-11-19-reset-30/. Jendela baru 19 Nov 07:36:54 WIB -> 26 Nov 07:36:54 WIB. Kedua bot membuka Rocco-SOL + STANK-SOL @ $29,90 masing-masing ~07:37 WIB.",
   "v18": {
@@ -9,50 +9,49 @@
     "sinceWib": "2026-11-19 12:33:01 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 101.5244,
-    "pnlUsd": 1.5244,
-    "pnlPct": 1.5244,
+    "paperValueUsd": 101.5146,
+    "pnlUsd": 1.5146,
+    "pnlPct": 1.5146,
     "openPositions": {
-      "count": 2,
+      "count": 1,
       "names": [
-        "DCTY-USDC",
-        "WASTED-SOL"
+        "DCTY-USDC"
       ]
     },
-    "closesToday": 4,
-    "closesTotal": 4,
-    "quotedCloses": 4,
+    "closesToday": 5,
+    "closesTotal": 5,
+    "quotedCloses": 5,
     "unquotedCloses": 0,
-    "closesTodayQuoted": 4,
+    "closesTodayQuoted": 5,
     "closesTodayUnquoted": 0,
     "tpTriggered": 2,
     "slTriggered": 0,
     "staleTriggered": 1,
-    "feesUsdTotal": 3.6815,
-    "feesUsdToday": 3.6815,
+    "feesUsdTotal": 3.7201,
+    "feesUsdToday": 3.7201,
     "unquotedPnlUsd": 0,
     "reshapes": 39,
     "wins": 2,
-    "losses": 2,
-    "lastScanWib": "2026-11-19 19:38:14 WIB",
+    "losses": 3,
+    "lastScanWib": "2026-11-19 19:43:16 WIB",
     "lastScanFetched": 148,
     "lastScanPass": 1,
     "openTertundaToday": 26,
     "fetchFailedTotal": 0,
     "cycleErrorsTotal": 0,
     "exitReasonsSeen": {
-      "oor_right_reposition_limit": 1,
+      "oor_right_reposition_limit": 2,
       "emergency_tp USDC +10%": 1,
       "emergency_slplus USDC +0.1% (peak +6.7%)": 1,
       "max age 12h": 1
     },
-    "realizedPnlUsd": 1.5404,
-    "winRate": 50,
-    "avgNetPnlUsd": 0.3851,
-    "equityPnlSol": 0.005127152155998349,
-    "solUsd": 74.3,
-    "positionValueUsd": 59.48401155892799,
-    "leftoverSol": 0.4697113,
+    "realizedPnlUsd": 1.4938,
+    "winRate": 40,
+    "avgNetPnlUsd": 0.2988,
+    "equityPnlSol": 0.00407549539665597,
+    "solUsd": 74.35,
+    "positionValueUsd": 29.720780397393632,
+    "leftoverSol": 0.23127094,
     "openPosition": {
       "name": "DCTY-USDC",
       "pool": "DmACYGgeSHEAyPrHERcRdHP3hFGMgSBdNE5Y4CXfQg7i",
@@ -105,32 +104,34 @@
         "pnlPct": -5.148331720786638,
         "reason": "max age 12h",
         "reasonText": "Stale close: umur ≥ 12 jam · tutup langsung (berapa pun PnL)"
+      },
+      {
+        "name": "WASTED-SOL",
+        "pool": "2v3XPhyAnGNYcD2jxHUTqb9d7aDmYPd6sV5UnV8hj1fz",
+        "openedWib": "2026-11-19 19:25:36 WIB",
+        "closedWib": "2026-11-19 19:44:07 WIB",
+        "pnlUsd": -0.04663815785563585,
+        "pnlPct": -0.15598046105563831,
+        "reason": "oor_right_reposition_limit",
+        "reasonText": "OOR kanan: batas reposition tercapai"
       }
     ],
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 122
+        "count": 123
       },
       {
         "reason": "tvl<$10000",
-        "count": 21
+        "count": 22
       },
       {
         "reason": "quote not SOL/USDC",
         "count": 2
-      },
-      {
-        "reason": "token tua: umur 521j > maks 400j",
-        "count": 1
-      },
-      {
-        "reason": "token tua: umur 622j > maks 400j",
-        "count": 1
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-19 19:39:34 WIB"
+    "lastUpdated": "2026-11-19 19:44:31 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -139,9 +140,9 @@
     "sinceWib": "2026-11-19 12:33:03 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 99.0361,
-    "pnlUsd": -0.9639,
-    "pnlPct": -0.9639,
+    "paperValueUsd": 99.0011,
+    "pnlUsd": -0.9989,
+    "pnlPct": -0.9989,
     "openPositions": {
       "count": 1,
       "names": [
@@ -163,7 +164,7 @@
     "reshapes": 27,
     "wins": 2,
     "losses": 3,
-    "lastScanWib": "2026-11-19 19:38:14 WIB",
+    "lastScanWib": "2026-11-19 19:43:17 WIB",
     "lastScanFetched": 148,
     "lastScanPass": 0,
     "openTertundaToday": 5,
@@ -178,9 +179,9 @@
     "realizedPnlUsd": -1.8952,
     "winRate": 40,
     "avgNetPnlUsd": -0.379,
-    "equityPnlSol": -0.028362690616259734,
-    "solUsd": 74.3,
-    "positionValueUsd": 30.831355250451086,
+    "equityPnlSol": -0.030088053640433987,
+    "solUsd": 74.37,
+    "positionValueUsd": 30.79634456771641,
     "leftoverSol": 0.23824036,
     "openPosition": {
       "name": ":3-SOL",
@@ -249,31 +250,23 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 122
+        "count": 123
       },
       {
         "reason": "tvl<$10000",
-        "count": 21
+        "count": 22
       },
       {
         "reason": "quote not SOL/USDC",
         "count": 2
       },
       {
-        "reason": "token tua: umur 521j > maks 400j",
-        "count": 1
-      },
-      {
         "reason": "anti PvP: kembar dengan Fsjg…roiG (WASTED, lebih besar) +1 lain",
-        "count": 1
-      },
-      {
-        "reason": "token tua: umur 622j > maks 400j",
         "count": 1
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-19 19:39:34 WIB"
+    "lastUpdated": "2026-11-19 19:44:31 WIB"
   },
   "v3": {
     "label": "VAULT",
@@ -322,7 +315,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-19 19:39:34 WIB",
+    "lastUpdated": "2026-11-19 19:44:31 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: VAULT SCREEN_ONLY berjalan (cron 30 mnt s.d. 20 Nov 00:45 WIB, lalu DRY_RUN 24 jam otomatis); circuit breaker lolos, 52 unit test lulus; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -352,15 +345,15 @@
       "v18",
       "v19"
     ],
-    "equityUsd": 200.5605,
-    "pnlUsd": 0.5605,
-    "pnlPct": 0.2802,
-    "realizedPnlUsd": -0.3548,
+    "equityUsd": 200.5157,
+    "pnlUsd": 0.5157,
+    "pnlPct": 0.2578,
+    "realizedPnlUsd": -0.4014,
     "wins": 4,
-    "losses": 5,
-    "winRate": 44.4,
-    "closesTotal": 9,
-    "asOf": "2026-11-19 19:39:34 WIB"
+    "losses": 6,
+    "winRate": 40.0,
+    "closesTotal": 10,
+    "asOf": "2026-11-19 19:44:31 WIB"
   },
   "leaderboard": {
     "order": [
@@ -368,7 +361,7 @@
       "v19"
     ],
     "leader": "v18",
-    "asOf": "2026-11-19 19:39:34 WIB"
+    "asOf": "2026-11-19 19:44:31 WIB"
   },
   "equityCurve": {
     "windowStart": "2026-11-19 07:36:54 WIB",
@@ -439,12 +432,28 @@
         "bot": "v1.9",
         "name": "STANK-SOL",
         "pnlUsd": -1.7771
+      },
+      {
+        "t": "2026-11-19 19:44:07 WIB",
+        "cumUsd": -0.4015,
+        "bot": "v1.8",
+        "name": "WASTED-SOL",
+        "pnlUsd": -0.0466
       }
     ],
-    "trades": 9,
-    "netUsd": -0.3549
+    "trades": 10,
+    "netUsd": -0.4015
   },
   "recentCloses": [
+    {
+      "bot": "v1.8",
+      "name": "WASTED-SOL",
+      "closedWib": "2026-11-19 19:44:07 WIB",
+      "pnlUsd": -0.0466,
+      "pnlPct": -0.156,
+      "reason": "oor_right_reposition_limit",
+      "badge": "OOR"
+    },
     {
       "bot": "v1.8",
       "name": "STANK-SOL",
@@ -530,10 +539,10 @@
   "reshapeBuckets": {
     "combined": {
       "0-3": {
-        "n": 4,
-        "netUsd": -0.0108,
+        "n": 5,
+        "netUsd": -0.0574,
         "wins": 2,
-        "losses": 2
+        "losses": 3
       },
       "4-7": {
         "n": 1,
@@ -551,10 +560,10 @@
     "byBot": {
       "v1.8": {
         "0-3": {
-          "n": 1,
-          "netUsd": -0.0576,
+          "n": 2,
+          "netUsd": -0.1042,
           "wins": 0,
-          "losses": 1
+          "losses": 2
         },
         "4-7": {
           "n": 0,
