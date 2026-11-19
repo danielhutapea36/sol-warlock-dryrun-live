@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-19 21:09:32 WIB",
+  "generatedWib": "2026-11-19 21:14:33 WIB",
   "date": "2026-11-19",
   "note": "Reset ke-2 pada 19 Nov 2026 07:36:54 WIB (persetujuan user): POSITION_USDC 100 -> 30 via paper/settings.json kedua bot; modal awal tetap 100 USDC, maks 3 posisi $30 per bot. Jendela lama 18 Nov 19:38 -> 25 Nov 19:38 WIB dibatalkan (~12 jam, v1.8 +$9,11 / v1.9 -$1,18, 8 close) dan diarsipkan di dry-run/archive/2026-11-19-reset-30/. Jendela baru 19 Nov 07:36:54 WIB -> 26 Nov 07:36:54 WIB. Kedua bot membuka Rocco-SOL + STANK-SOL @ $29,90 masing-masing ~07:37 WIB.",
   "v18": {
@@ -9,61 +9,48 @@
     "sinceWib": "2026-11-19 12:33:01 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 101.8129,
-    "pnlUsd": 1.8129,
-    "pnlPct": 1.8129,
+    "paperValueUsd": 101.8084,
+    "pnlUsd": 1.8084,
+    "pnlPct": 1.8084,
     "openPositions": {
-      "count": 1,
-      "names": [
-        "Rings-SOL"
-      ]
+      "count": 0,
+      "names": []
     },
-    "closesToday": 6,
-    "closesTotal": 6,
-    "quotedCloses": 6,
+    "closesToday": 7,
+    "closesTotal": 7,
+    "quotedCloses": 7,
     "unquotedCloses": 0,
-    "closesTodayQuoted": 6,
+    "closesTodayQuoted": 7,
     "closesTodayUnquoted": 0,
     "tpTriggered": 2,
     "slTriggered": 0,
     "staleTriggered": 1,
-    "feesUsdTotal": 4.0237,
-    "feesUsdToday": 4.0237,
+    "feesUsdTotal": 4.0524,
+    "feesUsdToday": 4.0524,
     "unquotedPnlUsd": 0,
     "reshapes": 39,
     "wins": 3,
-    "losses": 3,
-    "lastScanWib": "2026-11-19 21:04:32 WIB",
-    "lastScanFetched": 147,
+    "losses": 4,
+    "lastScanWib": "2026-11-19 21:09:33 WIB",
+    "lastScanFetched": 149,
     "lastScanPass": 2,
     "openTertundaToday": 26,
     "fetchFailedTotal": 0,
     "cycleErrorsTotal": 0,
     "exitReasonsSeen": {
-      "oor_right_reposition_limit": 3,
+      "oor_right_reposition_limit": 4,
       "emergency_tp USDC +10%": 1,
       "emergency_slplus USDC +0.1% (peak +6.7%)": 1,
       "max age 12h": 1
     },
-    "realizedPnlUsd": 1.8306,
-    "winRate": 50,
-    "avgNetPnlUsd": 0.3051,
-    "equityPnlSol": -0.005587522960484703,
-    "solUsd": 75.1,
-    "positionValueUsd": 29.682318581761944,
-    "leftoverSol": 0.23844036,
-    "openPosition": {
-      "name": "Rings-SOL",
-      "pool": "38XwbJPewvxWkcaW78YtLyVg6ZUUWttkALTykmUmSiWk",
-      "openedWib": "2026-11-19 20:54:28 WIB",
-      "usdcIn": 29.685518,
-      "depositSol": 0.09555643999999999,
-      "minBinId": -538,
-      "maxBinId": -469,
-      "nBins": 70,
-      "entryActiveBin": -469,
-      "reshapes": 0
-    },
+    "realizedPnlUsd": 1.8084,
+    "winRate": 42.9,
+    "avgNetPnlUsd": 0.2583,
+    "equityPnlSol": -0.004563632321193722,
+    "solUsd": 75.04,
+    "positionValueUsd": 0,
+    "leftoverSol": 0,
+    "openPosition": null,
     "recentCloses": [
       {
         "name": "Rocco-SOL",
@@ -124,36 +111,46 @@
         "pnlPct": 1.126385563016509,
         "reason": "oor_right_reposition_limit",
         "reasonText": "OOR kanan: batas reposition tercapai"
+      },
+      {
+        "name": "Rings-SOL",
+        "pool": "38XwbJPewvxWkcaW78YtLyVg6ZUUWttkALTykmUmSiWk",
+        "openedWib": "2026-11-19 20:54:28 WIB",
+        "closedWib": "2026-11-19 21:10:33 WIB",
+        "pnlUsd": -0.022190251439816677,
+        "pnlPct": -0.0742148877585842,
+        "reason": "oor_right_reposition_limit",
+        "reasonText": "OOR kanan: batas reposition tercapai"
       }
     ],
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 112
+        "count": 114
       },
       {
         "reason": "tvl<$10000",
-        "count": 24
+        "count": 23
       },
       {
         "reason": "bin_step outside 80-400",
         "count": 3
       },
       {
-        "reason": "vol spike 1h=278328 > 50% of 24h=278329",
+        "reason": "quote not SOL/USDC",
+        "count": 2
+      },
+      {
+        "reason": "vol spike 1h=272748 > 50% of 24h=289292",
         "count": 1
       },
       {
-        "reason": "vol spike 1h=68310 > 50% of 24h=114743",
-        "count": 1
-      },
-      {
-        "reason": "fee turnover 24h 61% > 60% (tvl $23654 < $25000)",
+        "reason": "fee turnover 24h 60% > 60% (tvl $23889 < $25000)",
         "count": 1
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-19 21:09:32 WIB"
+    "lastUpdated": "2026-11-19 21:14:33 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -162,50 +159,49 @@
     "sinceWib": "2026-11-19 12:33:03 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 99.5778,
-    "pnlUsd": -0.4222,
-    "pnlPct": -0.4222,
+    "paperValueUsd": 99.5071,
+    "pnlUsd": -0.4929,
+    "pnlPct": -0.4929,
     "openPositions": {
-      "count": 2,
+      "count": 1,
       "names": [
-        ":3-SOL",
-        "Rings-SOL"
+        ":3-SOL"
       ]
     },
-    "closesToday": 5,
-    "closesTotal": 5,
-    "quotedCloses": 5,
+    "closesToday": 6,
+    "closesTotal": 6,
+    "quotedCloses": 6,
     "unquotedCloses": 0,
-    "closesTodayQuoted": 5,
+    "closesTodayQuoted": 6,
     "closesTodayUnquoted": 0,
     "tpTriggered": 3,
     "slTriggered": 0,
     "staleTriggered": 1,
-    "feesUsdTotal": 1.8212,
-    "feesUsdToday": 1.8212,
+    "feesUsdTotal": 1.8309,
+    "feesUsdToday": 1.8309,
     "unquotedPnlUsd": 0,
     "reshapes": 27,
     "wins": 2,
-    "losses": 3,
-    "lastScanWib": "2026-11-19 21:04:37 WIB",
-    "lastScanFetched": 147,
+    "losses": 4,
+    "lastScanWib": "2026-11-19 21:09:39 WIB",
+    "lastScanFetched": 149,
     "lastScanPass": 2,
     "openTertundaToday": 5,
     "fetchFailedTotal": 0,
     "cycleErrorsTotal": 0,
     "exitReasonsSeen": {
-      "oor_right_reposition_limit": 1,
+      "oor_right_reposition_limit": 2,
       "oor_right_take_profit": 2,
       "emergency_slplus USDC +0.1% (peak +6.6%)": 1,
       "max age 12h": 1
     },
-    "realizedPnlUsd": -1.8952,
-    "winRate": 40,
-    "avgNetPnlUsd": -0.379,
-    "equityPnlSol": -0.035348936159359745,
-    "solUsd": 75.1,
-    "positionValueUsd": 61.07302518186278,
-    "leftoverSol": 0.47668072,
+    "realizedPnlUsd": -1.9491,
+    "winRate": 33.3,
+    "avgNetPnlUsd": -0.3249,
+    "equityPnlSol": -0.03717239058338451,
+    "solUsd": 75.15,
+    "positionValueUsd": 31.356177387743887,
+    "leftoverSol": 0.23824036,
     "openPosition": {
       "name": ":3-SOL",
       "pool": "7Vf8HRDdfUdKLh1GKnchWPwSJ5t3n7aSbFK1imC5rb77",
@@ -268,36 +264,46 @@
         "pnlPct": -5.315860477628452,
         "reason": "max age 12h",
         "reasonText": "Stale close: umur ≥ 12 jam · tutup langsung (berapa pun PnL)"
+      },
+      {
+        "name": "Rings-SOL",
+        "pool": "38XwbJPewvxWkcaW78YtLyVg6ZUUWttkALTykmUmSiWk",
+        "openedWib": "2026-11-19 20:54:34 WIB",
+        "closedWib": "2026-11-19 21:10:29 WIB",
+        "pnlUsd": -0.053887,
+        "pnlPct": -0.061191428912282894,
+        "reason": "oor_right_reposition_limit",
+        "reasonText": "OOR kanan: batas reposition tercapai"
       }
     ],
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 112
+        "count": 114
       },
       {
         "reason": "tvl<$10000",
-        "count": 24
+        "count": 23
       },
       {
         "reason": "bin_step outside 80-400",
         "count": 3
       },
       {
-        "reason": "vol spike 1h=278328 > 50% of 24h=278329",
+        "reason": "quote not SOL/USDC",
+        "count": 2
+      },
+      {
+        "reason": "vol spike 1h=272748 > 50% of 24h=289292",
         "count": 1
       },
       {
-        "reason": "vol spike 1h=68310 > 50% of 24h=114743",
-        "count": 1
-      },
-      {
-        "reason": "fee turnover 24h 61% > 60% (tvl $23654 < $25000)",
+        "reason": "fee turnover 24h 60% > 60% (tvl $23889 < $25000)",
         "count": 1
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-19 21:09:32 WIB"
+    "lastUpdated": "2026-11-19 21:14:33 WIB"
   },
   "v3": {
     "label": "VAULT",
@@ -346,7 +352,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-19 21:09:32 WIB",
+    "lastUpdated": "2026-11-19 21:14:33 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: VAULT SCREEN_ONLY berjalan (cron 30 mnt s.d. 20 Nov 00:45 WIB, lalu DRY_RUN 24 jam otomatis); circuit breaker lolos, 52 unit test lulus; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -376,15 +382,15 @@
       "v18",
       "v19"
     ],
-    "equityUsd": 201.3907,
-    "pnlUsd": 1.3907,
-    "pnlPct": 0.6953,
-    "realizedPnlUsd": -0.0646,
+    "equityUsd": 201.3155,
+    "pnlUsd": 1.3155,
+    "pnlPct": 0.6578,
+    "realizedPnlUsd": -0.1407,
     "wins": 5,
-    "losses": 6,
-    "winRate": 45.5,
-    "closesTotal": 11,
-    "asOf": "2026-11-19 21:09:32 WIB"
+    "losses": 8,
+    "winRate": 38.5,
+    "closesTotal": 13,
+    "asOf": "2026-11-19 21:14:33 WIB"
   },
   "leaderboard": {
     "order": [
@@ -392,7 +398,7 @@
       "v19"
     ],
     "leader": "v18",
-    "asOf": "2026-11-19 21:09:32 WIB"
+    "asOf": "2026-11-19 21:14:33 WIB"
   },
   "equityCurve": {
     "windowStart": "2026-11-19 07:36:54 WIB",
@@ -477,12 +483,44 @@
         "bot": "v1.8",
         "name": "DCTY-USDC",
         "pnlUsd": 0.3368
+      },
+      {
+        "t": "2026-11-19 21:10:29 WIB",
+        "cumUsd": -0.1186,
+        "bot": "v1.9",
+        "name": "Rings-SOL",
+        "pnlUsd": -0.0539
+      },
+      {
+        "t": "2026-11-19 21:10:33 WIB",
+        "cumUsd": -0.1408,
+        "bot": "v1.8",
+        "name": "Rings-SOL",
+        "pnlUsd": -0.0222
       }
     ],
-    "trades": 11,
-    "netUsd": -0.0647
+    "trades": 13,
+    "netUsd": -0.1408
   },
   "recentCloses": [
+    {
+      "bot": "v1.8",
+      "name": "Rings-SOL",
+      "closedWib": "2026-11-19 21:10:33 WIB",
+      "pnlUsd": -0.0222,
+      "pnlPct": -0.0742,
+      "reason": "oor_right_reposition_limit",
+      "badge": "OOR"
+    },
+    {
+      "bot": "v1.9",
+      "name": "Rings-SOL",
+      "closedWib": "2026-11-19 21:10:29 WIB",
+      "pnlUsd": -0.0539,
+      "pnlPct": -0.0612,
+      "reason": "oor_right_reposition_limit",
+      "badge": "OOR"
+    },
     {
       "bot": "v1.8",
       "name": "DCTY-USDC",
@@ -554,33 +592,15 @@
       "pnlPct": 0.505,
       "reason": "oor_right_take_profit",
       "badge": "TP"
-    },
-    {
-      "bot": "v1.9",
-      "name": "DCTY-USDC",
-      "closedWib": "2026-11-19 09:50:58 WIB",
-      "pnlUsd": 0.0368,
-      "pnlPct": 0.5222,
-      "reason": "oor_right_take_profit",
-      "badge": "TP"
-    },
-    {
-      "bot": "v1.8",
-      "name": "Rocco-SOL",
-      "closedWib": "2026-11-19 08:18:35 WIB",
-      "pnlUsd": -0.0576,
-      "pnlPct": -0.1927,
-      "reason": "oor_right_reposition_limit",
-      "badge": "OOR"
     }
   ],
   "reshapeBuckets": {
     "combined": {
       "0-3": {
-        "n": 5,
-        "netUsd": -0.0574,
+        "n": 7,
+        "netUsd": -0.1335,
         "wins": 2,
-        "losses": 3
+        "losses": 5
       },
       "4-7": {
         "n": 2,
@@ -598,10 +618,10 @@
     "byBot": {
       "v1.8": {
         "0-3": {
-          "n": 2,
-          "netUsd": -0.1042,
+          "n": 3,
+          "netUsd": -0.1264,
           "wins": 0,
-          "losses": 2
+          "losses": 3
         },
         "4-7": {
           "n": 1,
@@ -618,10 +638,10 @@
       },
       "v1.9": {
         "0-3": {
-          "n": 3,
-          "netUsd": 0.0468,
+          "n": 4,
+          "netUsd": -0.0071,
           "wins": 2,
-          "losses": 1
+          "losses": 2
         },
         "4-7": {
           "n": 1,
