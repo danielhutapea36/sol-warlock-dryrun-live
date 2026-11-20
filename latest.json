@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-21 05:59:38 WIB",
+  "generatedWib": "2026-11-21 06:04:32 WIB",
   "date": "2026-11-21",
   "note": "Reset ke-2 pada 19 Nov 2026 07:36:54 WIB (persetujuan user): POSITION_USDC 100 -> 30 via paper/settings.json kedua bot; modal awal tetap 100 USDC, maks 3 posisi $30 per bot. Jendela lama 18 Nov 19:38 -> 25 Nov 19:38 WIB dibatalkan (~12 jam, v1.8 +$9,11 / v1.9 -$1,18, 8 close) dan diarsipkan di dry-run/archive/2026-11-19-reset-30/. Jendela baru 19 Nov 07:36:54 WIB -> 26 Nov 07:36:54 WIB. Kedua bot membuka Rocco-SOL + STANK-SOL @ $29,90 masing-masing ~07:37 WIB.",
   "v18": {
@@ -9,9 +9,9 @@
     "sinceWib": "2026-11-20 21:45:05 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 99.2365,
-    "pnlUsd": -0.7635,
-    "pnlPct": -0.7635,
+    "paperValueUsd": 98.8719,
+    "pnlUsd": -1.1281,
+    "pnlPct": -1.1281,
     "openPositions": {
       "count": 2,
       "names": [
@@ -34,9 +34,9 @@
     "reshapes": 133,
     "wins": 9,
     "losses": 8,
-    "lastScanWib": "2026-11-21 05:56:27 WIB",
-    "lastScanFetched": 148,
-    "lastScanPass": 1,
+    "lastScanWib": "2026-11-21 06:01:25 WIB",
+    "lastScanFetched": 145,
+    "lastScanPass": 0,
     "openTertundaToday": 0,
     "fetchFailedTotal": 0,
     "cycleErrorsTotal": 0,
@@ -50,9 +50,9 @@
     "realizedPnlUsd": -1.5104,
     "winRate": 52.9,
     "avgNetPnlUsd": -0.0888,
-    "equityPnlSol": 0.07276870672482283,
-    "solUsd": 69.2,
-    "positionValueUsd": 60.446876115884535,
+    "equityPnlSol": 0.06399857505449558,
+    "solUsd": 69.37,
+    "positionValueUsd": 60.08228122108247,
     "leftoverSol": 0.45531108,
     "openPosition": {
       "name": "DCTY-SOL",
@@ -151,15 +151,11 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 115
+        "count": 118
       },
       {
         "reason": "tvl<$10000",
-        "count": 28
-      },
-      {
-        "reason": "bin_step outside 80-400",
-        "count": 1
+        "count": 25
       },
       {
         "reason": "quote not SOL/USDC",
@@ -168,14 +164,10 @@
       {
         "reason": "TVL $0",
         "count": 1
-      },
-      {
-        "reason": "rugcheck sticky: rugcheck danger: Large Amount of LP Unlocked (ditandai 2026-11-19 16:07 UTC, diblok 7 hari)",
-        "count": 1
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-21 05:59:38 WIB"
+    "lastUpdated": "2026-11-21 06:04:32 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -184,9 +176,9 @@
     "sinceWib": "2026-11-20 21:45:07 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 80.8116,
-    "pnlUsd": -19.1884,
-    "pnlPct": -19.1884,
+    "paperValueUsd": 80.9481,
+    "pnlUsd": -19.0519,
+    "pnlPct": -19.0519,
     "openPositions": {
       "count": 1,
       "names": [
@@ -208,8 +200,8 @@
     "reshapes": 96,
     "wins": 10,
     "losses": 11,
-    "lastScanWib": "2026-11-21 05:56:47 WIB",
-    "lastScanFetched": 148,
+    "lastScanWib": "2026-11-21 06:01:51 WIB",
+    "lastScanFetched": 146,
     "lastScanPass": 0,
     "openTertundaToday": 7,
     "fetchFailedTotal": 0,
@@ -223,9 +215,9 @@
     "realizedPnlUsd": -19.9166,
     "winRate": 47.6,
     "avgNetPnlUsd": -0.9484,
-    "equityPnlSol": -0.19365586437875026,
-    "solUsd": 69.21,
-    "positionValueUsd": 30.528261360043174,
+    "equityPnlSol": -0.19438121429327104,
+    "solUsd": 69.37,
+    "positionValueUsd": 30.6647645066667,
     "leftoverSol": 0.22826804,
     "openPosition": {
       "name": "DCTY-SOL",
@@ -324,15 +316,11 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 116
+        "count": 119
       },
       {
         "reason": "tvl<$10000",
-        "count": 28
-      },
-      {
-        "reason": "bin_step outside 80-400",
-        "count": 1
+        "count": 25
       },
       {
         "reason": "quote not SOL/USDC",
@@ -341,14 +329,10 @@
       {
         "reason": "TVL $0",
         "count": 1
-      },
-      {
-        "reason": "rugcheck sticky: rugcheck danger: Large Amount of LP Unlocked (ditandai 2026-11-19 16:02 UTC, diblok 7 hari)",
-        "count": 1
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-21 05:59:38 WIB"
+    "lastUpdated": "2026-11-21 06:04:32 WIB"
   },
   "v3": {
     "label": "VAULT",
@@ -397,7 +381,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-21 05:59:38 WIB",
+    "lastUpdated": "2026-11-21 06:04:32 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: VAULT SCREEN_ONLY berjalan (cron 30 mnt s.d. 20 Nov 00:45 WIB, lalu DRY_RUN 24 jam otomatis); circuit breaker lolos, 52 unit test lulus; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -427,15 +411,15 @@
       "v18",
       "v19"
     ],
-    "equityUsd": 180.0481,
-    "pnlUsd": -19.9519,
-    "pnlPct": -9.976,
+    "equityUsd": 179.82,
+    "pnlUsd": -20.18,
+    "pnlPct": -10.09,
     "realizedPnlUsd": -21.427,
     "wins": 19,
     "losses": 19,
     "winRate": 50.0,
     "closesTotal": 38,
-    "asOf": "2026-11-21 05:59:38 WIB"
+    "asOf": "2026-11-21 06:04:32 WIB"
   },
   "leaderboard": {
     "order": [
@@ -443,7 +427,7 @@
       "v19"
     ],
     "leader": "v18",
-    "asOf": "2026-11-21 05:59:38 WIB"
+    "asOf": "2026-11-21 06:04:32 WIB"
   },
   "equityCurve": {
     "windowStart": "2026-11-19 07:36:54 WIB",
