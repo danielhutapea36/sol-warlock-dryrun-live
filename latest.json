@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-20 21:04:33 WIB",
+  "generatedWib": "2026-11-20 21:09:31 WIB",
   "date": "2026-11-20",
   "note": "Reset ke-2 pada 19 Nov 2026 07:36:54 WIB (persetujuan user): POSITION_USDC 100 -> 30 via paper/settings.json kedua bot; modal awal tetap 100 USDC, maks 3 posisi $30 per bot. Jendela lama 18 Nov 19:38 -> 25 Nov 19:38 WIB dibatalkan (~12 jam, v1.8 +$9,11 / v1.9 -$1,18, 8 close) dan diarsipkan di dry-run/archive/2026-11-19-reset-30/. Jendela baru 19 Nov 07:36:54 WIB -> 26 Nov 07:36:54 WIB. Kedua bot membuka Rocco-SOL + STANK-SOL @ $29,90 masing-masing ~07:37 WIB.",
   "v18": {
@@ -31,8 +31,8 @@
     "reshapes": 102,
     "wins": 8,
     "losses": 8,
-    "lastScanWib": "2026-11-20 21:01:10 WIB",
-    "lastScanFetched": 150,
+    "lastScanWib": "2026-11-20 21:06:22 WIB",
+    "lastScanFetched": 152,
     "lastScanPass": 0,
     "openTertundaToday": 43,
     "fetchFailedTotal": 0,
@@ -47,8 +47,8 @@
     "realizedPnlUsd": -2.2991,
     "winRate": 50,
     "avgNetPnlUsd": -0.1437,
-    "equityPnlSol": 0.008609399866321477,
-    "solUsd": 71.32,
+    "equityPnlSol": 0.008417349613558667,
+    "solUsd": 71.33,
     "positionValueUsd": 0,
     "leftoverSol": 0,
     "openPosition": null,
@@ -145,7 +145,7 @@
       },
       {
         "reason": "quote not SOL/USDC",
-        "count": 5
+        "count": 7
       },
       {
         "reason": "bin_step outside 80-400",
@@ -156,12 +156,12 @@
         "count": 1
       },
       {
-        "reason": "TVL turun 59.6% sejak entry terakhir ($73.0k → $29.5k) ≥ maks 45%",
+        "reason": "TVL turun 59.3% sejak entry terakhir ($73.0k → $29.7k) ≥ maks 45%",
         "count": 1
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-20 21:04:33 WIB"
+    "lastUpdated": "2026-11-20 21:09:31 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -170,9 +170,9 @@
     "sinceWib": "2026-11-20 13:45:02 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 86.4158,
-    "pnlUsd": -13.5842,
-    "pnlPct": -13.5842,
+    "paperValueUsd": 86.3295,
+    "pnlUsd": -13.6705,
+    "pnlPct": -13.6705,
     "openPositions": {
       "count": 1,
       "names": [
@@ -194,8 +194,8 @@
     "reshapes": 80,
     "wins": 6,
     "losses": 9,
-    "lastScanWib": "2026-11-20 21:00:44 WIB",
-    "lastScanFetched": 150,
+    "lastScanWib": "2026-11-20 21:06:14 WIB",
+    "lastScanFetched": 152,
     "lastScanPass": 1,
     "openTertundaToday": 0,
     "fetchFailedTotal": 0,
@@ -209,9 +209,9 @@
     "realizedPnlUsd": -12.2754,
     "winRate": 40,
     "avgNetPnlUsd": -0.8184,
-    "equityPnlSol": -0.1496225109780598,
-    "solUsd": 71.32,
-    "positionValueUsd": 28.49121991624292,
+    "equityPnlSol": -0.15100248789097548,
+    "solUsd": 71.33,
+    "positionValueUsd": 28.40490278846579,
     "leftoverSol": 0.23034007,
     "openPosition": {
       "name": "DCTY-USDC",
@@ -318,7 +318,7 @@
       },
       {
         "reason": "quote not SOL/USDC",
-        "count": 5
+        "count": 7
       },
       {
         "reason": "bin_step outside 80-400",
@@ -330,7 +330,7 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-20 21:04:33 WIB"
+    "lastUpdated": "2026-11-20 21:09:31 WIB"
   },
   "v3": {
     "label": "VAULT",
@@ -379,7 +379,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-20 21:04:33 WIB",
+    "lastUpdated": "2026-11-20 21:09:31 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: VAULT SCREEN_ONLY berjalan (cron 30 mnt s.d. 20 Nov 00:45 WIB, lalu DRY_RUN 24 jam otomatis); circuit breaker lolos, 52 unit test lulus; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -409,15 +409,15 @@
       "v18",
       "v19"
     ],
-    "equityUsd": 184.1167,
-    "pnlUsd": -15.8833,
-    "pnlPct": -7.9416,
+    "equityUsd": 184.0304,
+    "pnlUsd": -15.9696,
+    "pnlPct": -7.9848,
     "realizedPnlUsd": -14.5745,
     "wins": 14,
     "losses": 17,
     "winRate": 45.2,
     "closesTotal": 31,
-    "asOf": "2026-11-20 21:04:33 WIB"
+    "asOf": "2026-11-20 21:09:31 WIB"
   },
   "leaderboard": {
     "order": [
@@ -425,7 +425,7 @@
       "v19"
     ],
     "leader": "v18",
-    "asOf": "2026-11-20 21:04:33 WIB"
+    "asOf": "2026-11-20 21:09:31 WIB"
   },
   "equityCurve": {
     "windowStart": "2026-11-19 07:36:54 WIB",
