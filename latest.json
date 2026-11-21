@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-21 21:24:35 WIB",
+  "generatedWib": "2026-11-21 21:29:36 WIB",
   "date": "2026-11-21",
   "note": "Reset ke-2 pada 19 Nov 2026 07:36:54 WIB (persetujuan user): POSITION_USDC 100 -> 30 via paper/settings.json kedua bot; modal awal tetap 100 USDC, maks 3 posisi $30 per bot. Jendela lama 18 Nov 19:38 -> 25 Nov 19:38 WIB dibatalkan (~12 jam, v1.8 +$9,11 / v1.9 -$1,18, 8 close) dan diarsipkan di dry-run/archive/2026-11-19-reset-30/. Jendela baru 19 Nov 07:36:54 WIB -> 26 Nov 07:36:54 WIB. Kedua bot membuka Rocco-SOL + STANK-SOL @ $29,90 masing-masing ~07:37 WIB.",
   "v18": {
@@ -9,9 +9,9 @@
     "sinceWib": "2026-11-21 11:13:00 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 106.9116,
-    "pnlUsd": 6.9116,
-    "pnlPct": 6.9116,
+    "paperValueUsd": 106.6575,
+    "pnlUsd": 6.6575,
+    "pnlPct": 6.6575,
     "openPositions": {
       "count": 2,
       "names": [
@@ -34,7 +34,7 @@
     "reshapes": 161,
     "wins": 14,
     "losses": 8,
-    "lastScanWib": "2026-11-21 21:22:57 WIB",
+    "lastScanWib": "2026-11-21 21:28:05 WIB",
     "lastScanFetched": 152,
     "lastScanPass": 0,
     "openTertundaToday": 0,
@@ -50,9 +50,9 @@
     "realizedPnlUsd": 5.27,
     "winRate": 63.6,
     "avgNetPnlUsd": 0.2395,
-    "equityPnlSol": 0.15175711391879054,
-    "solUsd": 70.66,
-    "positionValueUsd": 61.24160408574036,
+    "equityPnlSol": 0.14987228779964146,
+    "solUsd": 70.58,
+    "positionValueUsd": 60.9875296848901,
     "leftoverSol": 0.4660084,
     "openPosition": {
       "name": "NIO-SOL",
@@ -151,19 +151,19 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 128
+        "count": 129
       },
       {
         "reason": "tvl<$10000",
-        "count": 21
+        "count": 19
       },
       {
         "reason": "quote not SOL/USDC",
-        "count": 3
+        "count": 4
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-21 21:24:35 WIB"
+    "lastUpdated": "2026-11-21 21:29:36 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -172,9 +172,9 @@
     "sinceWib": "2026-11-21 11:13:02 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 86.0118,
-    "pnlUsd": -13.9882,
-    "pnlPct": -13.9882,
+    "paperValueUsd": 85.8538,
+    "pnlUsd": -14.1462,
+    "pnlPct": -14.1462,
     "openPositions": {
       "count": 2,
       "names": [
@@ -197,7 +197,7 @@
     "reshapes": 119,
     "wins": 12,
     "losses": 12,
-    "lastScanWib": "2026-11-21 21:22:36 WIB",
+    "lastScanWib": "2026-11-21 21:27:48 WIB",
     "lastScanFetched": 152,
     "lastScanPass": 0,
     "openTertundaToday": 9,
@@ -213,9 +213,9 @@
     "realizedPnlUsd": -16.3113,
     "winRate": 50,
     "avgNetPnlUsd": -0.6796,
-    "equityPnlSol": -0.14125968222253005,
-    "solUsd": 70.5,
-    "positionValueUsd": 61.82309508943132,
+    "equityPnlSol": -0.14488167577096767,
+    "solUsd": 70.58,
+    "positionValueUsd": 61.66505681445199,
     "leftoverSol": 0.4661084,
     "openPosition": {
       "name": "NIO-SOL",
@@ -314,19 +314,19 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 128
+        "count": 129
       },
       {
         "reason": "tvl<$10000",
-        "count": 21
+        "count": 19
       },
       {
         "reason": "quote not SOL/USDC",
-        "count": 3
+        "count": 4
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-21 21:24:35 WIB"
+    "lastUpdated": "2026-11-21 21:29:36 WIB"
   },
   "v3": {
     "label": "VAULT",
@@ -375,7 +375,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-21 21:24:35 WIB",
+    "lastUpdated": "2026-11-21 21:29:36 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: VAULT SCREEN_ONLY berjalan (cron 30 mnt s.d. 20 Nov 00:45 WIB, lalu DRY_RUN 24 jam otomatis); circuit breaker lolos, 52 unit test lulus; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -405,15 +405,15 @@
       "v18",
       "v19"
     ],
-    "equityUsd": 192.9234,
-    "pnlUsd": -7.0766,
-    "pnlPct": -3.5383,
+    "equityUsd": 192.5113,
+    "pnlUsd": -7.4887,
+    "pnlPct": -3.7444,
     "realizedPnlUsd": -11.0413,
     "wins": 26,
     "losses": 20,
     "winRate": 56.5,
     "closesTotal": 46,
-    "asOf": "2026-11-21 21:24:35 WIB"
+    "asOf": "2026-11-21 21:29:36 WIB"
   },
   "leaderboard": {
     "order": [
@@ -421,7 +421,7 @@
       "v19"
     ],
     "leader": "v18",
-    "asOf": "2026-11-21 21:24:35 WIB"
+    "asOf": "2026-11-21 21:29:36 WIB"
   },
   "equityCurve": {
     "windowStart": "2026-11-19 07:36:54 WIB",
