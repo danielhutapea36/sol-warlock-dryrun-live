@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-21 19:34:35 WIB",
+  "generatedWib": "2026-11-21 19:39:30 WIB",
   "date": "2026-11-21",
   "note": "Reset ke-2 pada 19 Nov 2026 07:36:54 WIB (persetujuan user): POSITION_USDC 100 -> 30 via paper/settings.json kedua bot; modal awal tetap 100 USDC, maks 3 posisi $30 per bot. Jendela lama 18 Nov 19:38 -> 25 Nov 19:38 WIB dibatalkan (~12 jam, v1.8 +$9,11 / v1.9 -$1,18, 8 close) dan diarsipkan di dry-run/archive/2026-11-19-reset-30/. Jendela baru 19 Nov 07:36:54 WIB -> 26 Nov 07:36:54 WIB. Kedua bot membuka Rocco-SOL + STANK-SOL @ $29,90 masing-masing ~07:37 WIB.",
   "v18": {
@@ -9,33 +9,32 @@
     "sinceWib": "2026-11-21 11:13:00 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 106.1916,
-    "pnlUsd": 6.1916,
-    "pnlPct": 6.1916,
+    "paperValueUsd": 106.5224,
+    "pnlUsd": 6.5224,
+    "pnlPct": 6.5224,
     "openPositions": {
-      "count": 2,
+      "count": 1,
       "names": [
-        "NIO-SOL",
-        "Huss-SOL"
+        "NIO-SOL"
       ]
     },
-    "closesToday": 5,
-    "closesTotal": 21,
-    "quotedCloses": 21,
+    "closesToday": 6,
+    "closesTotal": 22,
+    "quotedCloses": 22,
     "unquotedCloses": 0,
-    "closesTodayQuoted": 5,
+    "closesTodayQuoted": 6,
     "closesTodayUnquoted": 0,
-    "tpTriggered": 7,
+    "tpTriggered": 8,
     "slTriggered": 0,
     "staleTriggered": 5,
-    "feesUsdTotal": 14.5266,
-    "feesUsdToday": 7.5264,
+    "feesUsdTotal": 14.5322,
+    "feesUsdToday": 7.5321,
     "unquotedPnlUsd": 0,
     "reshapes": 156,
-    "wins": 13,
+    "wins": 14,
     "losses": 8,
-    "lastScanWib": "2026-11-21 19:30:01 WIB",
-    "lastScanFetched": 142,
+    "lastScanWib": "2026-11-21 19:35:09 WIB",
+    "lastScanFetched": 146,
     "lastScanPass": 0,
     "openTertundaToday": 0,
     "fetchFailedTotal": 0,
@@ -45,15 +44,15 @@
       "emergency_tp USDC +10%": 3,
       "emergency_slplus USDC +0.1% (peak +6.7%)": 1,
       "max age 12h": 5,
-      "oor_right_take_profit": 3
+      "oor_right_take_profit": 4
     },
-    "realizedPnlUsd": 5.12,
-    "winRate": 61.9,
-    "avgNetPnlUsd": 0.2438,
-    "equityPnlSol": 0.17705491139526974,
-    "solUsd": 69.03,
-    "positionValueUsd": 60.67158222479556,
-    "leftoverSol": 0.4665084,
+    "realizedPnlUsd": 5.27,
+    "winRate": 63.6,
+    "avgNetPnlUsd": 0.2395,
+    "equityPnlSol": 0.17295660112704625,
+    "solUsd": 69.43,
+    "positionValueUsd": 31.05244329575051,
+    "leftoverSol": 0.22806804,
     "openPosition": {
       "name": "NIO-SOL",
       "pool": "B1ZJJDY63cZabq2HdG3tfYLHi56wvJuNZibJSdVtFKLr",
@@ -67,16 +66,6 @@
       "reshapes": 7
     },
     "recentCloses": [
-      {
-        "name": "Max-SOL",
-        "pool": "5nwdWtMHvrcUPJpoXSYWcPQv9wkoNzhCME5XJ4KmktzJ",
-        "openedWib": "2026-11-20 01:45:04 WIB",
-        "closedWib": "2026-11-20 13:45:06 WIB",
-        "pnlUsd": -0.4150610198603708,
-        "pnlPct": -1.388163946021307,
-        "reason": "max age 12h",
-        "reasonText": "Stale close: umur ≥ 12 jam · tutup langsung (berapa pun PnL)"
-      },
       {
         "name": "DCTY-SOL",
         "pool": "4exs9btspvKHEYtuCFMXXV9snF99UvbFJKtDhAzmgYtz",
@@ -146,6 +135,16 @@
         "pnlPct": 1.623531772575251,
         "reason": "oor_right_take_profit",
         "reasonText": "OOR kanan: profit net USDC memenuhi ambang"
+      },
+      {
+        "name": "Huss-SOL",
+        "pool": "HKfE9AfRahft9ZLzGPeigNSGb19FqeauucUuqnAw2Fae",
+        "openedWib": "2026-11-21 18:59:20 WIB",
+        "closedWib": "2026-11-21 19:38:22 WIB",
+        "pnlUsd": 0.14992936964099712,
+        "pnlPct": 0.5014360188662111,
+        "reason": "oor_right_take_profit",
+        "reasonText": "OOR kanan: profit net USDC memenuhi ambang"
       }
     ],
     "lastScanRejects": [
@@ -155,7 +154,7 @@
       },
       {
         "reason": "tvl<$10000",
-        "count": 17
+        "count": 21
       },
       {
         "reason": "quote not SOL/USDC",
@@ -163,7 +162,7 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-21 19:34:35 WIB"
+    "lastUpdated": "2026-11-21 19:39:30 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -172,9 +171,9 @@
     "sinceWib": "2026-11-21 11:13:02 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 84.81,
-    "pnlUsd": -15.19,
-    "pnlPct": -15.19,
+    "paperValueUsd": 85.1169,
+    "pnlUsd": -14.8831,
+    "pnlPct": -14.8831,
     "openPositions": {
       "count": 2,
       "names": [
@@ -197,8 +196,8 @@
     "reshapes": 115,
     "wins": 12,
     "losses": 12,
-    "lastScanWib": "2026-11-21 19:30:07 WIB",
-    "lastScanFetched": 142,
+    "lastScanWib": "2026-11-21 19:35:11 WIB",
+    "lastScanFetched": 146,
     "lastScanPass": 0,
     "openTertundaToday": 7,
     "fetchFailedTotal": 0,
@@ -213,9 +212,9 @@
     "realizedPnlUsd": -16.3113,
     "winRate": 50,
     "avgNetPnlUsd": -0.6796,
-    "equityPnlSol": -0.13268839568989588,
-    "solUsd": 69.03,
-    "positionValueUsd": 60.62133370360369,
+    "equityPnlSol": -0.13481690627670506,
+    "solUsd": 69.4,
+    "positionValueUsd": 60.928195832117225,
     "leftoverSol": 0.4665084,
     "openPosition": {
       "name": "NIO-SOL",
@@ -318,7 +317,7 @@
       },
       {
         "reason": "tvl<$10000",
-        "count": 17
+        "count": 21
       },
       {
         "reason": "quote not SOL/USDC",
@@ -326,7 +325,7 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-21 19:34:35 WIB"
+    "lastUpdated": "2026-11-21 19:39:30 WIB"
   },
   "v3": {
     "label": "VAULT",
@@ -375,7 +374,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-21 19:34:35 WIB",
+    "lastUpdated": "2026-11-21 19:39:30 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: VAULT SCREEN_ONLY berjalan (cron 30 mnt s.d. 20 Nov 00:45 WIB, lalu DRY_RUN 24 jam otomatis); circuit breaker lolos, 52 unit test lulus; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -405,15 +404,15 @@
       "v18",
       "v19"
     ],
-    "equityUsd": 191.0016,
-    "pnlUsd": -8.9984,
-    "pnlPct": -4.4992,
-    "realizedPnlUsd": -11.1913,
-    "wins": 25,
+    "equityUsd": 191.6393,
+    "pnlUsd": -8.3607,
+    "pnlPct": -4.1804,
+    "realizedPnlUsd": -11.0413,
+    "wins": 26,
     "losses": 20,
-    "winRate": 55.6,
-    "closesTotal": 45,
-    "asOf": "2026-11-21 19:34:35 WIB"
+    "winRate": 56.5,
+    "closesTotal": 46,
+    "asOf": "2026-11-21 19:39:30 WIB"
   },
   "leaderboard": {
     "order": [
@@ -421,7 +420,7 @@
       "v19"
     ],
     "leader": "v18",
-    "asOf": "2026-11-21 19:34:35 WIB"
+    "asOf": "2026-11-21 19:39:30 WIB"
   },
   "equityCurve": {
     "windowStart": "2026-11-19 07:36:54 WIB",
@@ -744,12 +743,28 @@
         "bot": "v1.8",
         "name": "DCTY-SOL",
         "pnlUsd": 0.4854
+      },
+      {
+        "t": "2026-11-21 19:38:22 WIB",
+        "cumUsd": -11.0415,
+        "bot": "v1.8",
+        "name": "Huss-SOL",
+        "pnlUsd": 0.1499
       }
     ],
-    "trades": 45,
-    "netUsd": -11.1914
+    "trades": 46,
+    "netUsd": -11.0415
   },
   "recentCloses": [
+    {
+      "bot": "v1.8",
+      "name": "Huss-SOL",
+      "closedWib": "2026-11-21 19:38:22 WIB",
+      "pnlUsd": 0.1499,
+      "pnlPct": 0.5014,
+      "reason": "oor_right_take_profit",
+      "badge": "TP"
+    },
     {
       "bot": "v1.8",
       "name": "DCTY-SOL",
@@ -830,23 +845,14 @@
       "pnlPct": 2.638,
       "reason": "oor_right_reposition_limit",
       "badge": "OOR"
-    },
-    {
-      "bot": "v1.9",
-      "name": "Huss-SOL",
-      "closedWib": "2026-11-21 05:31:22 WIB",
-      "pnlUsd": 0.6922,
-      "pnlPct": 2.5374,
-      "reason": "oor_right_take_profit",
-      "badge": "TP"
     }
   ],
   "reshapeBuckets": {
     "combined": {
       "0-3": {
-        "n": 24,
-        "netUsd": 1.0022,
-        "wins": 13,
+        "n": 25,
+        "netUsd": 1.1521,
+        "wins": 14,
         "losses": 11
       },
       "4-7": {
@@ -865,9 +871,9 @@
     "byBot": {
       "v1.8": {
         "0-3": {
-          "n": 9,
-          "netUsd": 1.5722,
-          "wins": 5,
+          "n": 10,
+          "netUsd": 1.7221,
+          "wins": 6,
           "losses": 4
         },
         "4-7": {
