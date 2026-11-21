@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-21 07:29:33 WIB",
+  "generatedWib": "2026-11-21 07:34:31 WIB",
   "date": "2026-11-21",
   "note": "Reset ke-2 pada 19 Nov 2026 07:36:54 WIB (persetujuan user): POSITION_USDC 100 -> 30 via paper/settings.json kedua bot; modal awal tetap 100 USDC, maks 3 posisi $30 per bot. Jendela lama 18 Nov 19:38 -> 25 Nov 19:38 WIB dibatalkan (~12 jam, v1.8 +$9,11 / v1.9 -$1,18, 8 close) dan diarsipkan di dry-run/archive/2026-11-19-reset-30/. Jendela baru 19 Nov 07:36:54 WIB -> 26 Nov 07:36:54 WIB. Kedua bot membuka Rocco-SOL + STANK-SOL @ $29,90 masing-masing ~07:37 WIB.",
   "v18": {
@@ -9,32 +9,31 @@
     "sinceWib": "2026-11-20 23:45:01 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 100.0368,
-    "pnlUsd": 0.0368,
-    "pnlPct": 0.0368,
+    "paperValueUsd": 101.4881,
+    "pnlUsd": 1.4881,
+    "pnlPct": 1.4881,
     "openPositions": {
-      "count": 2,
+      "count": 1,
       "names": [
-        "DCTY-SOL",
-        "FIONA-SOL"
+        "DCTY-SOL"
       ]
     },
-    "closesToday": 1,
-    "closesTotal": 17,
-    "quotedCloses": 17,
+    "closesToday": 2,
+    "closesTotal": 18,
+    "quotedCloses": 18,
     "unquotedCloses": 0,
-    "closesTodayQuoted": 1,
+    "closesTodayQuoted": 2,
     "closesTodayUnquoted": 0,
-    "tpTriggered": 4,
+    "tpTriggered": 5,
     "slTriggered": 0,
     "staleTriggered": 4,
-    "feesUsdTotal": 7.1785,
-    "feesUsdToday": 0.1783,
+    "feesUsdTotal": 9.5736,
+    "feesUsdToday": 2.5734,
     "unquotedPnlUsd": 0,
     "reshapes": 133,
-    "wins": 9,
+    "wins": 10,
     "losses": 8,
-    "lastScanWib": "2026-11-21 07:26:11 WIB",
+    "lastScanWib": "2026-11-21 07:31:20 WIB",
     "lastScanFetched": 147,
     "lastScanPass": 0,
     "openTertundaToday": 0,
@@ -42,18 +41,18 @@
     "cycleErrorsTotal": 0,
     "exitReasonsSeen": {
       "oor_right_reposition_limit": 9,
-      "emergency_tp USDC +10%": 1,
+      "emergency_tp USDC +10%": 2,
       "emergency_slplus USDC +0.1% (peak +6.7%)": 1,
       "max age 12h": 4,
       "oor_right_take_profit": 2
     },
-    "realizedPnlUsd": -1.5104,
-    "winRate": 52.9,
-    "avgNetPnlUsd": -0.0888,
-    "equityPnlSol": 0.09168194981461864,
-    "solUsd": 68.85,
-    "positionValueUsd": 61.24713408668174,
-    "leftoverSol": 0.45531108,
+    "realizedPnlUsd": 1.5199,
+    "winRate": 55.6,
+    "avgNetPnlUsd": 0.0844,
+    "equityPnlSol": 0.11041058135288773,
+    "solUsd": 68.96,
+    "positionValueUsd": 29.768192792410744,
+    "leftoverSol": 0.22776804,
     "openPosition": {
       "name": "DCTY-SOL",
       "pool": "3v3sLe2mrNjjwWtB6fBQMFv1WGC1Xj2VMEicJTA1TcG8",
@@ -67,16 +66,6 @@
       "reshapes": 10
     },
     "recentCloses": [
-      {
-        "name": ":3-SOL",
-        "pool": "HHvtsk99d37GvSqUUCWVFEy5aYnDUYgeYVF3FaZbLRTV",
-        "openedWib": "2026-11-20 00:44:37 WIB",
-        "closedWib": "2026-11-20 01:00:35 WIB",
-        "pnlUsd": -0.10153632175779848,
-        "pnlPct": -0.33958636039397483,
-        "reason": "oor_right_reposition_limit",
-        "reasonText": "OOR kanan: batas reposition tercapai"
-      },
       {
         "name": "CATMARIO-SOL",
         "pool": "531iw96uhJd9gHJf7VFRWXFQYFcWsBJBpCUYdV7JfdAt",
@@ -146,12 +135,22 @@
         "pnlPct": 2.6380304453532806,
         "reason": "oor_right_reposition_limit",
         "reasonText": "OOR kanan: batas reposition tercapai"
+      },
+      {
+        "name": "FIONA-SOL",
+        "pool": "DQpF5ixcj1nCs8moBT4RgLDz9dJKjsA2ssBr3FYxGNCr",
+        "openedWib": "2026-11-20 22:33:40 WIB",
+        "closedWib": "2026-11-21 07:33:42 WIB",
+        "pnlUsd": 3.03029409546955,
+        "pnlPct": 10.134762861102173,
+        "reason": "emergency_tp USDC +10%",
+        "reasonText": "TP emergency (harga sempat turun dalam dari entry) USDC +10%"
       }
     ],
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 115
+        "count": 116
       },
       {
         "reason": "tvl<$10000",
@@ -162,11 +161,7 @@
         "count": 2
       },
       {
-        "reason": "vol spike 1h=12198 > 50% of 24h=16181",
-        "count": 1
-      },
-      {
-        "reason": "TVL $0",
+        "reason": "vol spike 1h=12641 > 50% of 24h=16602",
         "count": 1
       },
       {
@@ -175,7 +170,7 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-21 07:29:33 WIB"
+    "lastUpdated": "2026-11-21 07:34:31 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -184,9 +179,9 @@
     "sinceWib": "2026-11-20 23:45:03 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 80.7503,
-    "pnlUsd": -19.2497,
-    "pnlPct": -19.2497,
+    "paperValueUsd": 80.8694,
+    "pnlUsd": -19.1306,
+    "pnlPct": -19.1306,
     "openPositions": {
       "count": 2,
       "names": [
@@ -209,7 +204,7 @@
     "reshapes": 97,
     "wins": 10,
     "losses": 11,
-    "lastScanWib": "2026-11-21 07:26:24 WIB",
+    "lastScanWib": "2026-11-21 07:31:31 WIB",
     "lastScanFetched": 147,
     "lastScanPass": 0,
     "openTertundaToday": 7,
@@ -224,9 +219,9 @@
     "realizedPnlUsd": -19.9166,
     "winRate": 47.6,
     "avgNetPnlUsd": -0.9484,
-    "equityPnlSol": -0.18844186067264213,
-    "solUsd": 68.85,
-    "positionValueUsd": 60.16689798844787,
+    "equityPnlSol": -0.18824482847320523,
+    "solUsd": 68.94,
+    "positionValueUsd": 60.28603727559462,
     "leftoverSol": 0.4666084,
     "openPosition": {
       "name": "DCTY-SOL",
@@ -325,7 +320,7 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 114
+        "count": 116
       },
       {
         "reason": "tvl<$10000",
@@ -336,20 +331,16 @@
         "count": 2
       },
       {
-        "reason": "vol spike 1h=12198 > 50% of 24h=16181",
+        "reason": "vol spike 1h=12641 > 50% of 24h=16602",
         "count": 1
       },
       {
-        "reason": "bin_step outside 80-400",
-        "count": 1
-      },
-      {
-        "reason": "TVL $0",
+        "reason": "rugcheck sticky: rugcheck danger: Large Amount of LP Unlocked (ditandai 2026-11-19 16:02 UTC, diblok 7 hari)",
         "count": 1
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-21 07:29:33 WIB"
+    "lastUpdated": "2026-11-21 07:34:31 WIB"
   },
   "v3": {
     "label": "VAULT",
@@ -398,7 +389,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-21 07:29:33 WIB",
+    "lastUpdated": "2026-11-21 07:34:31 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: VAULT SCREEN_ONLY berjalan (cron 30 mnt s.d. 20 Nov 00:45 WIB, lalu DRY_RUN 24 jam otomatis); circuit breaker lolos, 52 unit test lulus; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -428,15 +419,15 @@
       "v18",
       "v19"
     ],
-    "equityUsd": 180.7871,
-    "pnlUsd": -19.2129,
-    "pnlPct": -9.6065,
-    "realizedPnlUsd": -21.427,
-    "wins": 19,
+    "equityUsd": 182.3575,
+    "pnlUsd": -17.6425,
+    "pnlPct": -8.8213,
+    "realizedPnlUsd": -18.3967,
+    "wins": 20,
     "losses": 19,
-    "winRate": 50.0,
-    "closesTotal": 38,
-    "asOf": "2026-11-21 07:29:33 WIB"
+    "winRate": 51.3,
+    "closesTotal": 39,
+    "asOf": "2026-11-21 07:34:31 WIB"
   },
   "leaderboard": {
     "order": [
@@ -444,7 +435,7 @@
       "v19"
     ],
     "leader": "v18",
-    "asOf": "2026-11-21 07:29:33 WIB"
+    "asOf": "2026-11-21 07:34:31 WIB"
   },
   "equityCurve": {
     "windowStart": "2026-11-19 07:36:54 WIB",
@@ -718,12 +709,28 @@
         "bot": "v1.9",
         "name": "FIONA-SOL",
         "pnlUsd": 0.1449
+      },
+      {
+        "t": "2026-11-21 07:33:42 WIB",
+        "cumUsd": -18.3968,
+        "bot": "v1.8",
+        "name": "FIONA-SOL",
+        "pnlUsd": 3.0303
       }
     ],
-    "trades": 38,
-    "netUsd": -21.4271
+    "trades": 39,
+    "netUsd": -18.3968
   },
   "recentCloses": [
+    {
+      "bot": "v1.8",
+      "name": "FIONA-SOL",
+      "closedWib": "2026-11-21 07:33:42 WIB",
+      "pnlUsd": 3.0303,
+      "pnlPct": 10.1348,
+      "reason": "emergency_tp USDC +10%",
+      "badge": "TP"
+    },
     {
       "bot": "v1.9",
       "name": "FIONA-SOL",
@@ -804,15 +811,6 @@
       "pnlPct": -2.5393,
       "reason": "max age 12h",
       "badge": "STALE"
-    },
-    {
-      "bot": "v1.8",
-      "name": "DCTY-SOL",
-      "closedWib": "2026-11-20 14:00:37 WIB",
-      "pnlUsd": 0.7835,
-      "pnlPct": 2.6205,
-      "reason": "oor_right_take_profit",
-      "badge": "TP"
     }
   ],
   "reshapeBuckets": {
@@ -830,9 +828,9 @@
         "losses": 3
       },
       ">7": {
-        "n": 8,
-        "netUsd": -22.2851,
-        "wins": 2,
+        "n": 9,
+        "netUsd": -19.2548,
+        "wins": 3,
         "losses": 6
       }
     },
@@ -851,9 +849,9 @@
           "losses": 1
         },
         ">7": {
-          "n": 5,
-          "netUsd": -3.6037,
-          "wins": 2,
+          "n": 6,
+          "netUsd": -0.5734,
+          "wins": 3,
           "losses": 3
         }
       },
