@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-22 07:59:38 WIB",
+  "generatedWib": "2026-11-22 08:04:33 WIB",
   "date": "2026-11-22",
   "note": "Reset ke-2 pada 19 Nov 2026 07:36:54 WIB (persetujuan user): POSITION_USDC 100 -> 30 via paper/settings.json kedua bot; modal awal tetap 100 USDC, maks 3 posisi $30 per bot. Jendela lama 18 Nov 19:38 -> 25 Nov 19:38 WIB dibatalkan (~12 jam, v1.8 +$9,11 / v1.9 -$1,18, 8 close) dan diarsipkan di dry-run/archive/2026-11-19-reset-30/. Jendela baru 19 Nov 07:36:54 WIB -> 26 Nov 07:36:54 WIB. Kedua bot membuka Rocco-SOL + STANK-SOL @ $29,90 masing-masing ~07:37 WIB.",
   "v18": {
@@ -9,9 +9,9 @@
     "sinceWib": "2026-11-22 00:49:02 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 106.8283,
-    "pnlUsd": 6.8283,
-    "pnlPct": 6.8283,
+    "paperValueUsd": 106.9629,
+    "pnlUsd": 6.9629,
+    "pnlPct": 6.9629,
     "openPositions": {
       "count": 3,
       "names": [
@@ -32,13 +32,13 @@
     "feesUsdTotal": 17.8048,
     "feesUsdToday": 2.6284,
     "unquotedPnlUsd": 0,
-    "reshapes": 192,
+    "reshapes": 194,
     "wins": 17,
     "losses": 9,
     "lastScanWib": "2026-11-22 07:59:23 WIB",
     "lastScanFetched": 148,
     "lastScanPass": 2,
-    "openTertundaToday": 1,
+    "openTertundaToday": 2,
     "fetchFailedTotal": 0,
     "cycleErrorsTotal": 0,
     "exitReasonsSeen": {
@@ -52,10 +52,10 @@
     "realizedPnlUsd": 8.2853,
     "winRate": 65.4,
     "avgNetPnlUsd": 0.3187,
-    "equityPnlSol": 0.160702006281904,
-    "solUsd": 70.19,
-    "positionValueUsd": 88.2429586655999,
-    "leftoverSol": 0.70444876,
+    "equityPnlSol": 0.1621865994987277,
+    "solUsd": 70.21,
+    "positionValueUsd": 88.37763169654053,
+    "leftoverSol": 0.70424876,
     "openPosition": {
       "name": "greg-SOL",
       "pool": "WWtiftjGRS9FFeof1mvVDEw9hMM3ZjyWt26WriCopZX",
@@ -178,7 +178,7 @@
         "skipped": "Saldo USDC tidak cukup"
       }
     ],
-    "lastUpdated": "2026-11-22 07:59:38 WIB"
+    "lastUpdated": "2026-11-22 08:04:33 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -187,9 +187,9 @@
     "sinceWib": "2026-11-22 00:49:04 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 80.1996,
-    "pnlUsd": -19.8004,
-    "pnlPct": -19.8004,
+    "paperValueUsd": 80.2492,
+    "pnlUsd": -19.7508,
+    "pnlPct": -19.7508,
     "openPositions": {
       "count": 2,
       "names": [
@@ -228,9 +228,9 @@
     "realizedPnlUsd": -19.7284,
     "winRate": 53.6,
     "avgNetPnlUsd": -0.7046,
-    "equityPnlSol": -0.2186774781242391,
+    "equityPnlSol": -0.21797112201969893,
     "solUsd": 70.19,
-    "positionValueUsd": 59.628027715412735,
+    "positionValueUsd": 59.67760685039041,
     "leftoverSol": 0.47628072,
     "openPosition": {
       "name": "Huss-SOL",
@@ -358,7 +358,7 @@
         "skipped": "Saldo USDC tidak cukup"
       }
     ],
-    "lastUpdated": "2026-11-22 07:59:38 WIB"
+    "lastUpdated": "2026-11-22 08:04:33 WIB"
   },
   "v3": {
     "label": "VAULT",
@@ -407,7 +407,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-22 07:59:38 WIB",
+    "lastUpdated": "2026-11-22 08:04:33 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: VAULT SCREEN_ONLY berjalan (cron 30 mnt s.d. 20 Nov 00:45 WIB, lalu DRY_RUN 24 jam otomatis); circuit breaker lolos, 52 unit test lulus; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -437,15 +437,15 @@
       "v18",
       "v19"
     ],
-    "equityUsd": 187.0279,
-    "pnlUsd": -12.9721,
-    "pnlPct": -6.4861,
+    "equityUsd": 187.2121,
+    "pnlUsd": -12.7879,
+    "pnlPct": -6.3939,
     "realizedPnlUsd": -11.4431,
     "wins": 32,
     "losses": 22,
     "winRate": 59.3,
     "closesTotal": 54,
-    "asOf": "2026-11-22 07:59:38 WIB"
+    "asOf": "2026-11-22 08:04:33 WIB"
   },
   "leaderboard": {
     "order": [
@@ -453,7 +453,7 @@
       "v19"
     ],
     "leader": "v18",
-    "asOf": "2026-11-22 07:59:38 WIB"
+    "asOf": "2026-11-22 08:04:33 WIB"
   },
   "equityCurve": {
     "windowStart": "2026-11-19 07:36:54 WIB",
