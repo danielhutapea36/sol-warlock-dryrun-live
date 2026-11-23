@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-24 04:04:31 WIB",
+  "generatedWib": "2026-11-24 04:09:33 WIB",
   "date": "2026-11-24",
   "note": "Reset ke-2 pada 19 Nov 2026 07:36:54 WIB (persetujuan user): POSITION_USDC 100 -> 30 via paper/settings.json kedua bot; modal awal tetap 100 USDC, maks 3 posisi $30 per bot. Jendela lama 18 Nov 19:38 -> 25 Nov 19:38 WIB dibatalkan (~12 jam, v1.8 +$9,11 / v1.9 -$1,18, 8 close) dan diarsipkan di dry-run/archive/2026-11-19-reset-30/. Jendela baru 19 Nov 07:36:54 WIB -> 26 Nov 07:36:54 WIB. Kedua bot membuka Rocco-SOL + STANK-SOL @ $29,90 masing-masing ~07:37 WIB.",
   "v18": {
@@ -9,9 +9,9 @@
     "sinceWib": "2026-11-23 19:53:01 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 103.4486,
-    "pnlUsd": 3.4486,
-    "pnlPct": 3.4486,
+    "paperValueUsd": 103.8028,
+    "pnlUsd": 3.8028,
+    "pnlPct": 3.8028,
     "openPositions": {
       "count": 2,
       "names": [
@@ -34,8 +34,8 @@
     "reshapes": 291,
     "wins": 26,
     "losses": 18,
-    "lastScanWib": "2026-11-24 03:59:44 WIB",
-    "lastScanFetched": 151,
+    "lastScanWib": "2026-11-24 04:05:01 WIB",
+    "lastScanFetched": 157,
     "lastScanPass": 0,
     "openTertundaToday": 0,
     "fetchFailedTotal": 2,
@@ -55,9 +55,9 @@
     "realizedPnlUsd": 2.5683,
     "winRate": 59.1,
     "avgNetPnlUsd": 0.0584,
-    "equityPnlSol": 0.05873670982791723,
-    "solUsd": 72.85,
-    "positionValueUsd": 60.58033149752057,
+    "equityPnlSol": 0.06771873379557825,
+    "solUsd": 72.64,
+    "positionValueUsd": 60.93458114831868,
     "leftoverSol": 0.4658084,
     "openPosition": {
       "name": "cCAT-SOL",
@@ -156,11 +156,11 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 121
+        "count": 120
       },
       {
         "reason": "tvl<$10000",
-        "count": 23
+        "count": 30
       },
       {
         "reason": "quote not SOL/USDC",
@@ -172,7 +172,7 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-24 04:04:31 WIB"
+    "lastUpdated": "2026-11-24 04:09:33 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -181,9 +181,9 @@
     "sinceWib": "2026-11-23 19:53:03 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 66.2624,
-    "pnlUsd": -33.7376,
-    "pnlPct": -33.7376,
+    "paperValueUsd": 66.1779,
+    "pnlUsd": -33.8221,
+    "pnlPct": -33.8221,
     "openPositions": {
       "count": 1,
       "names": [
@@ -205,11 +205,11 @@
     "reshapes": 202,
     "wins": 18,
     "losses": 26,
-    "lastScanWib": "2026-11-24 03:59:46 WIB",
-    "lastScanFetched": 151,
+    "lastScanWib": "2026-11-24 04:04:56 WIB",
+    "lastScanFetched": 157,
     "lastScanPass": 0,
     "openTertundaToday": 7,
-    "fetchFailedTotal": 2,
+    "fetchFailedTotal": 3,
     "cycleErrorsTotal": 0,
     "exitReasonsSeen": {
       "oor_right_reposition_limit": 16,
@@ -226,9 +226,9 @@
     "realizedPnlUsd": -33.47,
     "winRate": 40.9,
     "avgNetPnlUsd": -0.7607,
-    "equityPnlSol": -0.4517117020570425,
-    "solUsd": 72.85,
-    "positionValueUsd": 29.43243355905725,
+    "equityPnlSol": -0.4502456853615513,
+    "solUsd": 72.64,
+    "positionValueUsd": 29.34791460810079,
     "leftoverSol": 0.23824036,
     "openPosition": {
       "name": "Huss-SOL",
@@ -327,11 +327,11 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 121
+        "count": 120
       },
       {
         "reason": "tvl<$10000",
-        "count": 23
+        "count": 30
       },
       {
         "reason": "quote not SOL/USDC",
@@ -343,7 +343,7 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-24 04:04:31 WIB"
+    "lastUpdated": "2026-11-24 04:09:33 WIB"
   },
   "v3": {
     "label": "VAULT",
@@ -392,7 +392,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-24 04:04:31 WIB",
+    "lastUpdated": "2026-11-24 04:09:33 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: VAULT SCREEN_ONLY berjalan (cron 30 mnt s.d. 20 Nov 00:45 WIB, lalu DRY_RUN 24 jam otomatis); circuit breaker lolos, 52 unit test lulus; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -422,15 +422,15 @@
       "v18",
       "v19"
     ],
-    "equityUsd": 169.711,
-    "pnlUsd": -30.289,
-    "pnlPct": -15.1445,
+    "equityUsd": 169.9807,
+    "pnlUsd": -30.0193,
+    "pnlPct": -15.0096,
     "realizedPnlUsd": -30.9017,
     "wins": 44,
     "losses": 44,
     "winRate": 50.0,
     "closesTotal": 88,
-    "asOf": "2026-11-24 04:04:31 WIB"
+    "asOf": "2026-11-24 04:09:33 WIB"
   },
   "leaderboard": {
     "order": [
@@ -438,7 +438,7 @@
       "v19"
     ],
     "leader": "v18",
-    "asOf": "2026-11-24 04:04:31 WIB"
+    "asOf": "2026-11-24 04:09:33 WIB"
   },
   "equityCurve": {
     "windowStart": "2026-11-19 07:36:54 WIB",
