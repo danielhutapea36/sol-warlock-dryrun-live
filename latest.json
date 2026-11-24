@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-24 16:14:34 WIB",
+  "generatedWib": "2026-11-24 16:19:33 WIB",
   "date": "2026-11-24",
   "note": "Reset ke-2 pada 19 Nov 2026 07:36:54 WIB (persetujuan user): POSITION_USDC 100 -> 30 via paper/settings.json kedua bot; modal awal tetap 100 USDC, maks 3 posisi $30 per bot. Jendela lama 18 Nov 19:38 -> 25 Nov 19:38 WIB dibatalkan (~12 jam, v1.8 +$9,11 / v1.9 -$1,18, 8 close) dan diarsipkan di dry-run/archive/2026-11-19-reset-30/. Jendela baru 19 Nov 07:36:54 WIB -> 26 Nov 07:36:54 WIB. Kedua bot membuka Rocco-SOL + STANK-SOL @ $29,90 masing-masing ~07:37 WIB.",
   "v18": {
@@ -31,7 +31,7 @@
     "reshapes": 304,
     "wins": 29,
     "losses": 21,
-    "lastScanWib": "2026-11-24 16:12:04 WIB",
+    "lastScanWib": "2026-11-24 16:17:28 WIB",
     "lastScanFetched": 151,
     "lastScanPass": 0,
     "openTertundaToday": 9,
@@ -52,8 +52,8 @@
     "realizedPnlUsd": 4.2732,
     "winRate": 58,
     "avgNetPnlUsd": 0.0855,
-    "equityPnlSol": 0.11546312253551472,
-    "solUsd": 70.61,
+    "equityPnlSol": 0.11462703015016396,
+    "solUsd": 70.65,
     "positionValueUsd": 0,
     "leftoverSol": 0,
     "openPosition": null,
@@ -142,11 +142,11 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 124
+        "count": 122
       },
       {
         "reason": "tvl<$10000",
-        "count": 19
+        "count": 21
       },
       {
         "reason": "quote not SOL/USDC",
@@ -157,7 +157,7 @@
         "count": 2
       },
       {
-        "reason": "vol spike 1h=43134 > 50% of 24h=45095",
+        "reason": "vol spike 1h=45696 > 50% of 24h=47657",
         "count": 1
       },
       {
@@ -166,7 +166,7 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-24 16:14:34 WIB"
+    "lastUpdated": "2026-11-24 16:19:33 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -197,8 +197,8 @@
     "reshapes": 214,
     "wins": 20,
     "losses": 30,
-    "lastScanWib": "2026-11-24 16:10:03 WIB",
-    "lastScanFetched": 152,
+    "lastScanWib": "2026-11-24 16:15:30 WIB",
+    "lastScanFetched": 151,
     "lastScanPass": 0,
     "openTertundaToday": 7,
     "fetchFailedTotal": 0,
@@ -218,8 +218,8 @@
     "realizedPnlUsd": -34.4356,
     "winRate": 40,
     "avgNetPnlUsd": -0.6887,
-    "equityPnlSol": -0.43274296940748735,
-    "solUsd": 70.61,
+    "equityPnlSol": -0.43326868325529067,
+    "solUsd": 70.65,
     "positionValueUsd": 0,
     "leftoverSol": 0,
     "openPosition": null,
@@ -308,11 +308,11 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 125
+        "count": 123
       },
       {
         "reason": "tvl<$10000",
-        "count": 19
+        "count": 20
       },
       {
         "reason": "quote not SOL/USDC",
@@ -323,7 +323,7 @@
         "count": 2
       },
       {
-        "reason": "vol spike 1h=42692 > 50% of 24h=44653",
+        "reason": "vol spike 1h=44790 > 50% of 24h=46751",
         "count": 1
       },
       {
@@ -332,7 +332,7 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-24 16:14:34 WIB"
+    "lastUpdated": "2026-11-24 16:19:33 WIB"
   },
   "v3": {
     "label": "VAULT",
@@ -381,7 +381,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-24 16:14:34 WIB",
+    "lastUpdated": "2026-11-24 16:19:33 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: VAULT SCREEN_ONLY berjalan (cron 30 mnt s.d. 20 Nov 00:45 WIB, lalu DRY_RUN 24 jam otomatis); circuit breaker lolos, 52 unit test lulus; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -419,7 +419,7 @@
     "losses": 51,
     "winRate": 49.0,
     "closesTotal": 100,
-    "asOf": "2026-11-24 16:14:34 WIB"
+    "asOf": "2026-11-24 16:19:33 WIB"
   },
   "leaderboard": {
     "order": [
@@ -427,7 +427,7 @@
       "v19"
     ],
     "leader": "v18",
-    "asOf": "2026-11-24 16:14:34 WIB"
+    "asOf": "2026-11-24 16:19:33 WIB"
   },
   "equityCurve": {
     "windowStart": "2026-11-19 07:36:54 WIB",
