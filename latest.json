@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-25 20:34:37 WIB",
+  "generatedWib": "2026-11-25 20:39:31 WIB",
   "date": "2026-11-25",
   "note": "Reset ke-2 pada 19 Nov 2026 07:36:54 WIB (persetujuan user): POSITION_USDC 100 -> 30 via paper/settings.json kedua bot; modal awal tetap 100 USDC, maks 3 posisi $30 per bot. Jendela lama 18 Nov 19:38 -> 25 Nov 19:38 WIB dibatalkan (~12 jam, v1.8 +$9,11 / v1.9 -$1,18, 8 close) dan diarsipkan di dry-run/archive/2026-11-19-reset-30/. Jendela baru 19 Nov 07:36:54 WIB -> 26 Nov 07:36:54 WIB. Kedua bot membuka Rocco-SOL + STANK-SOL @ $29,90 masing-masing ~07:37 WIB.",
   "v18": {
@@ -9,9 +9,9 @@
     "sinceWib": "2026-11-25 13:14:42 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 103.2926,
-    "pnlUsd": 3.2926,
-    "pnlPct": 3.2926,
+    "paperValueUsd": 103.1353,
+    "pnlUsd": 3.1353,
+    "pnlPct": 3.1353,
     "openPositions": {
       "count": 3,
       "names": [
@@ -35,8 +35,8 @@
     "reshapes": 355,
     "wins": 34,
     "losses": 24,
-    "lastScanWib": "2026-11-25 20:30:15 WIB",
-    "lastScanFetched": 151,
+    "lastScanWib": "2026-11-25 20:35:27 WIB",
+    "lastScanFetched": 150,
     "lastScanPass": 1,
     "openTertundaToday": 6,
     "fetchFailedTotal": 0,
@@ -56,9 +56,9 @@
     "realizedPnlUsd": 5.3256,
     "winRate": 58.6,
     "avgNetPnlUsd": 0.0918,
-    "equityPnlSol": 0.17011059546285923,
-    "solUsd": 67.45,
-    "positionValueUsd": 87.46703928324999,
+    "equityPnlSol": 0.17209753900144942,
+    "solUsd": 67.26,
+    "positionValueUsd": 87.30971593243049,
     "leftoverSol": 0.70217376,
     "openPosition": {
       "name": "JIMMY-SOL",
@@ -157,18 +157,18 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 119
+        "count": 122
       },
       {
         "reason": "tvl<$10000",
-        "count": 16
+        "count": 14
       },
       {
         "reason": "quote not SOL/USDC",
-        "count": 9
+        "count": 7
       },
       {
-        "reason": "vol spike 1h=145925 > 50% of 24h=165820",
+        "reason": "vol spike 1h=147242 > 50% of 24h=171073",
         "count": 1
       },
       {
@@ -176,12 +176,12 @@
         "count": 1
       },
       {
-        "reason": "fee turnover 24h 120% > 60% (tvl $12250 < $25000)",
+        "reason": "fee turnover 24h 119% > 60% (tvl $12393 < $25000)",
         "count": 1
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-25 20:34:37 WIB"
+    "lastUpdated": "2026-11-25 20:39:31 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -190,9 +190,9 @@
     "sinceWib": "2026-11-25 13:14:44 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 59.5555,
-    "pnlUsd": -40.4445,
-    "pnlPct": -40.4445,
+    "paperValueUsd": 59.0628,
+    "pnlUsd": -40.9372,
+    "pnlPct": -40.9372,
     "openPositions": {
       "count": 2,
       "names": [
@@ -215,10 +215,10 @@
     "reshapes": 285,
     "wins": 23,
     "losses": 34,
-    "lastScanWib": "2026-11-25 20:30:20 WIB",
-    "lastScanFetched": 151,
+    "lastScanWib": "2026-11-25 20:35:21 WIB",
+    "lastScanFetched": 152,
     "lastScanPass": 2,
-    "openTertundaToday": 18,
+    "openTertundaToday": 19,
     "fetchFailedTotal": 0,
     "cycleErrorsTotal": 0,
     "exitReasonsSeen": {
@@ -237,9 +237,9 @@
     "realizedPnlUsd": -37.8475,
     "winRate": 40.4,
     "avgNetPnlUsd": -0.664,
-    "equityPnlSol": -0.478327324606002,
-    "solUsd": 67.45,
-    "positionValueUsd": 56.90298084050281,
+    "equityPnlSol": -0.4831590692103317,
+    "solUsd": 67.26,
+    "positionValueUsd": 56.41023573000362,
     "leftoverSol": 0.4646334,
     "openPosition": {
       "name": "JIMMY-SOL",
@@ -338,18 +338,18 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 119
+        "count": 122
       },
       {
         "reason": "tvl<$10000",
-        "count": 16
+        "count": 15
       },
       {
         "reason": "quote not SOL/USDC",
-        "count": 9
+        "count": 8
       },
       {
-        "reason": "vol spike 1h=145925 > 50% of 24h=165820",
+        "reason": "vol spike 1h=147242 > 50% of 24h=171073",
         "count": 1
       },
       {
@@ -357,7 +357,7 @@
         "count": 1
       },
       {
-        "reason": "fee turnover 24h 120% > 60% (tvl $12250 < $25000)",
+        "reason": "fee turnover 24h 119% > 60% (tvl $12393 < $25000)",
         "count": 1
       }
     ],
@@ -367,7 +367,7 @@
         "skipped": "Saldo USDC tidak cukup"
       }
     ],
-    "lastUpdated": "2026-11-25 20:34:37 WIB"
+    "lastUpdated": "2026-11-25 20:39:31 WIB"
   },
   "v3": {
     "label": "VAULT",
@@ -416,7 +416,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-25 20:34:37 WIB",
+    "lastUpdated": "2026-11-25 20:39:31 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: VAULT SCREEN_ONLY berjalan (cron 30 mnt s.d. 20 Nov 00:45 WIB, lalu DRY_RUN 24 jam otomatis); circuit breaker lolos, 52 unit test lulus; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -446,15 +446,15 @@
       "v18",
       "v19"
     ],
-    "equityUsd": 162.8481,
-    "pnlUsd": -37.1519,
-    "pnlPct": -18.5759,
+    "equityUsd": 162.1981,
+    "pnlUsd": -37.8019,
+    "pnlPct": -18.9009,
     "realizedPnlUsd": -32.5219,
     "wins": 57,
     "losses": 58,
     "winRate": 49.6,
     "closesTotal": 115,
-    "asOf": "2026-11-25 20:34:37 WIB"
+    "asOf": "2026-11-25 20:39:31 WIB"
   },
   "leaderboard": {
     "order": [
@@ -462,7 +462,7 @@
       "v19"
     ],
     "leader": "v18",
-    "asOf": "2026-11-25 20:34:37 WIB"
+    "asOf": "2026-11-25 20:39:31 WIB"
   },
   "equityCurve": {
     "windowStart": "2026-11-19 07:36:54 WIB",
