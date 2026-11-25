@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-25 08:44:32 WIB",
+  "generatedWib": "2026-11-25 08:49:34 WIB",
   "date": "2026-11-25",
   "note": "Reset ke-2 pada 19 Nov 2026 07:36:54 WIB (persetujuan user): POSITION_USDC 100 -> 30 via paper/settings.json kedua bot; modal awal tetap 100 USDC, maks 3 posisi $30 per bot. Jendela lama 18 Nov 19:38 -> 25 Nov 19:38 WIB dibatalkan (~12 jam, v1.8 +$9,11 / v1.9 -$1,18, 8 close) dan diarsipkan di dry-run/archive/2026-11-19-reset-30/. Jendela baru 19 Nov 07:36:54 WIB -> 26 Nov 07:36:54 WIB. Kedua bot membuka Rocco-SOL + STANK-SOL @ $29,90 masing-masing ~07:37 WIB.",
   "v18": {
@@ -31,8 +31,8 @@
     "reshapes": 316,
     "wins": 31,
     "losses": 24,
-    "lastScanWib": "2026-11-25 08:42:17 WIB",
-    "lastScanFetched": 148,
+    "lastScanWib": "2026-11-25 08:47:26 WIB",
+    "lastScanFetched": 150,
     "lastScanPass": 0,
     "openTertundaToday": 0,
     "fetchFailedTotal": 0,
@@ -146,15 +146,11 @@
       },
       {
         "reason": "tvl<$10000",
-        "count": 17
+        "count": 19
       },
       {
         "reason": "quote not SOL/USDC",
-        "count": 5
-      },
-      {
-        "reason": "TVL $0",
-        "count": 1
+        "count": 6
       },
       {
         "reason": "anti PvP: kembar dengan 7wcC…2J5E (4CHAN, lebih besar) +1 lain",
@@ -162,7 +158,7 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-25 08:44:32 WIB"
+    "lastUpdated": "2026-11-25 08:49:34 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -171,9 +167,9 @@
     "sinceWib": "2026-11-24 23:57:04 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 63.2115,
-    "pnlUsd": -36.7885,
-    "pnlPct": -36.7885,
+    "paperValueUsd": 63.2102,
+    "pnlUsd": -36.7898,
+    "pnlPct": -36.7898,
     "openPositions": {
       "count": 1,
       "names": [
@@ -195,8 +191,8 @@
     "reshapes": 254,
     "wins": 22,
     "losses": 33,
-    "lastScanWib": "2026-11-25 08:39:24 WIB",
-    "lastScanFetched": 146,
+    "lastScanWib": "2026-11-25 08:44:33 WIB",
+    "lastScanFetched": 148,
     "lastScanPass": 0,
     "openTertundaToday": 0,
     "fetchFailedTotal": 0,
@@ -217,9 +213,9 @@
     "realizedPnlUsd": -36.4967,
     "winRate": 40,
     "avgNetPnlUsd": -0.6636,
-    "equityPnlSol": -0.4476924436551749,
+    "equityPnlSol": -0.44771016578906386,
     "solUsd": 69.19,
-    "positionValueUsd": 29.508177055140372,
+    "positionValueUsd": 29.506950860696588,
     "leftoverSol": 0.23824036,
     "openPosition": {
       "name": "greg-SOL",
@@ -326,7 +322,7 @@
       },
       {
         "reason": "quote not SOL/USDC",
-        "count": 3
+        "count": 5
       },
       {
         "reason": "TVL $0",
@@ -338,7 +334,7 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-25 08:44:32 WIB"
+    "lastUpdated": "2026-11-25 08:49:34 WIB"
   },
   "v3": {
     "label": "VAULT",
@@ -387,7 +383,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-25 08:44:32 WIB",
+    "lastUpdated": "2026-11-25 08:49:34 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: VAULT SCREEN_ONLY berjalan (cron 30 mnt s.d. 20 Nov 00:45 WIB, lalu DRY_RUN 24 jam otomatis); circuit breaker lolos, 52 unit test lulus; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -417,15 +413,15 @@
       "v18",
       "v19"
     ],
-    "equityUsd": 168.2337,
-    "pnlUsd": -31.7663,
-    "pnlPct": -15.8832,
+    "equityUsd": 168.2324,
+    "pnlUsd": -31.7676,
+    "pnlPct": -15.8838,
     "realizedPnlUsd": -31.4745,
     "wins": 53,
     "losses": 57,
     "winRate": 48.2,
     "closesTotal": 110,
-    "asOf": "2026-11-25 08:44:32 WIB"
+    "asOf": "2026-11-25 08:49:34 WIB"
   },
   "leaderboard": {
     "order": [
@@ -433,7 +429,7 @@
       "v19"
     ],
     "leader": "v18",
-    "asOf": "2026-11-25 08:44:32 WIB"
+    "asOf": "2026-11-25 08:49:34 WIB"
   },
   "equityCurve": {
     "windowStart": "2026-11-19 07:36:54 WIB",
