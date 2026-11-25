@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-26 02:29:31 WIB",
+  "generatedWib": "2026-11-26 02:34:35 WIB",
   "date": "2026-11-26",
   "note": "Reset ke-2 pada 19 Nov 2026 07:36:54 WIB (persetujuan user): POSITION_USDC 100 -> 30 via paper/settings.json kedua bot; modal awal tetap 100 USDC, maks 3 posisi $30 per bot. Jendela lama 18 Nov 19:38 -> 25 Nov 19:38 WIB dibatalkan (~12 jam, v1.8 +$9,11 / v1.9 -$1,18, 8 close) dan diarsipkan di dry-run/archive/2026-11-19-reset-30/. Jendela baru 19 Nov 07:36:54 WIB -> 26 Nov 07:36:54 WIB. Kedua bot membuka Rocco-SOL + STANK-SOL @ $29,90 masing-masing ~07:37 WIB.",
   "v18": {
@@ -9,9 +9,9 @@
     "sinceWib": "2026-11-25 19:17:06 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 108.3707,
-    "pnlUsd": 8.3707,
-    "pnlPct": 8.3707,
+    "paperValueUsd": 108.2917,
+    "pnlUsd": 8.2917,
+    "pnlPct": 8.2917,
     "openPositions": {
       "count": 1,
       "names": [
@@ -30,10 +30,10 @@
     "feesUsdTotal": 34.8841,
     "feesUsdToday": 2.0967,
     "unquotedPnlUsd": 0,
-    "reshapes": 363,
+    "reshapes": 364,
     "wins": 38,
     "losses": 27,
-    "lastScanWib": "2026-11-26 02:27:34 WIB",
+    "lastScanWib": "2026-11-26 02:32:44 WIB",
     "lastScanFetched": 143,
     "lastScanPass": 0,
     "openTertundaToday": 0,
@@ -54,10 +54,10 @@
     "realizedPnlUsd": 8.357,
     "winRate": 58.5,
     "avgNetPnlUsd": 0.1286,
-    "equityPnlSol": 0.1713230662385996,
-    "solUsd": 70.71,
-    "positionValueUsd": 29.913727745586023,
-    "leftoverSol": 0.23844036,
+    "equityPnlSol": 0.17346080382413454,
+    "solUsd": 70.56,
+    "positionValueUsd": 29.834675291722064,
+    "leftoverSol": 0.23834036,
     "openPosition": {
       "name": "BASKET-SOL",
       "pool": "EXWUUH9Au6XimBjgaJ5RxP1ZfWz6JVxzjs8cNRyyxLNr",
@@ -68,7 +68,7 @@
       "maxBinId": -455,
       "nBins": 70,
       "entryActiveBin": -455,
-      "reshapes": 0
+      "reshapes": 1
     },
     "recentCloses": [
       {
@@ -155,11 +155,11 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 125
+        "count": 124
       },
       {
         "reason": "tvl<$10000",
-        "count": 11
+        "count": 13
       },
       {
         "reason": "bin_step outside 80-400",
@@ -170,7 +170,7 @@
         "count": 2
       },
       {
-        "reason": "fee turnover 24h 61% > 60% (tvl $12746 < $25000)",
+        "reason": "fee turnover 24h 69% > 60% (tvl $11273 < $25000)",
         "count": 1
       },
       {
@@ -179,7 +179,7 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-26 02:29:31 WIB"
+    "lastUpdated": "2026-11-26 02:34:35 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -188,9 +188,9 @@
     "sinceWib": "2026-11-25 19:17:09 WIB",
     "window": "2026-11-19 07:36:54 WIB -> 2026-11-26 07:36:54 WIB",
     "startCapitalUsdc": 100,
-    "paperValueUsd": 69.0236,
-    "pnlUsd": -30.9764,
-    "pnlPct": -30.9764,
+    "paperValueUsd": 68.8074,
+    "pnlUsd": -31.1926,
+    "pnlPct": -31.1926,
     "openPositions": {
       "count": 2,
       "names": [
@@ -210,12 +210,12 @@
     "feesUsdTotal": 29.9317,
     "feesUsdToday": 2.0319,
     "unquotedPnlUsd": -33.4948,
-    "reshapes": 302,
+    "reshapes": 303,
     "wins": 27,
     "losses": 36,
-    "lastScanWib": "2026-11-26 02:27:40 WIB",
+    "lastScanWib": "2026-11-26 02:32:48 WIB",
     "lastScanFetched": 143,
-    "lastScanPass": 1,
+    "lastScanPass": 0,
     "openTertundaToday": 4,
     "fetchFailedTotal": 0,
     "cycleErrorsTotal": 0,
@@ -235,10 +235,10 @@
     "realizedPnlUsd": -33.2955,
     "winRate": 42.9,
     "avgNetPnlUsd": -0.5285,
-    "equityPnlSol": -0.3851352138362423,
-    "solUsd": 70.71,
-    "positionValueUsd": 62.11901969410693,
-    "leftoverSol": 0.47638072,
+    "equityPnlSol": -0.38598560647584235,
+    "solUsd": 70.55,
+    "positionValueUsd": 61.90284051910254,
+    "leftoverSol": 0.47628072,
     "openPosition": {
       "name": "Slingoor-SOL",
       "pool": "FKBVZE8UuBemmePPv3tzZYDPgTopR315LvLx5nddA8iQ",
@@ -336,11 +336,11 @@
     "lastScanRejects": [
       {
         "reason": "fee/tvl30m<0.6%",
-        "count": 125
+        "count": 124
       },
       {
         "reason": "tvl<$10000",
-        "count": 11
+        "count": 13
       },
       {
         "reason": "bin_step outside 80-400",
@@ -351,16 +351,16 @@
         "count": 2
       },
       {
-        "reason": "fee turnover 24h 61% > 60% (tvl $12746 < $25000)",
+        "reason": "fee turnover 24h 69% > 60% (tvl $11273 < $25000)",
         "count": 1
       },
       {
-        "reason": "Cooldown pool: tunggu 20 menit (batas 30 menit sejak close)",
+        "reason": "Cooldown pool: tunggu 15 menit (batas 30 menit sejak close)",
         "count": 1
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-26 02:29:31 WIB"
+    "lastUpdated": "2026-11-26 02:34:35 WIB"
   },
   "v3": {
     "label": "VAULT",
@@ -409,7 +409,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-26 02:29:31 WIB",
+    "lastUpdated": "2026-11-26 02:34:35 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: VAULT SCREEN_ONLY berjalan (cron 30 mnt s.d. 20 Nov 00:45 WIB, lalu DRY_RUN 24 jam otomatis); circuit breaker lolos, 52 unit test lulus; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -439,15 +439,15 @@
       "v18",
       "v19"
     ],
-    "equityUsd": 177.3943,
-    "pnlUsd": -22.6057,
-    "pnlPct": -11.3029,
+    "equityUsd": 177.0991,
+    "pnlUsd": -22.9009,
+    "pnlPct": -11.4505,
     "realizedPnlUsd": -24.9385,
     "wins": 65,
     "losses": 63,
     "winRate": 50.8,
     "closesTotal": 128,
-    "asOf": "2026-11-26 02:29:31 WIB"
+    "asOf": "2026-11-26 02:34:35 WIB"
   },
   "leaderboard": {
     "order": [
@@ -455,7 +455,7 @@
       "v19"
     ],
     "leader": "v18",
-    "asOf": "2026-11-26 02:29:31 WIB"
+    "asOf": "2026-11-26 02:34:35 WIB"
   },
   "equityCurve": {
     "windowStart": "2026-11-19 07:36:54 WIB",
