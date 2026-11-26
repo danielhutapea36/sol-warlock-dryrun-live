@@ -1,6 +1,6 @@
 {
-  "generatedWib": "2026-11-26 23:59:33 WIB",
-  "date": "2026-11-26",
+  "generatedWib": "2026-11-27 00:04:35 WIB",
+  "date": "2026-11-27",
   "note": "Reset ke-2 pada 19 Nov 2026 07:36:54 WIB (persetujuan user): POSITION_USDC 100 -> 30 via paper/settings.json kedua bot; modal awal tetap 100 USDC, maks 3 posisi $30 per bot. Jendela lama 18 Nov 19:38 -> 25 Nov 19:38 WIB dibatalkan (~12 jam, v1.8 +$9,11 / v1.9 -$1,18, 8 close) dan diarsipkan di dry-run/archive/2026-11-19-reset-30/. Jendela baru 19 Nov 07:36:54 WIB -> 26 Nov 07:36:54 WIB. Kedua bot membuka Rocco-SOL + STANK-SOL @ $29,90 masing-masing ~07:37 WIB.",
   "v18": {
     "label": "v1.8",
@@ -16,17 +16,17 @@
       "count": 0,
       "names": []
     },
-    "closesToday": 6,
+    "closesToday": 0,
     "closesTotal": 68,
     "quotedCloses": 68,
     "unquotedCloses": 0,
-    "closesTodayQuoted": 6,
+    "closesTodayQuoted": 0,
     "closesTodayUnquoted": 0,
     "tpTriggered": 31,
     "slTriggered": 0,
     "staleTriggered": 13,
     "feesUsdTotal": 36.4999,
-    "feesUsdToday": 3.7126,
+    "feesUsdToday": 0.0,
     "unquotedPnlUsd": 0,
     "reshapes": 383,
     "wins": 41,
@@ -159,7 +159,7 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-26 23:59:33 WIB"
+    "lastUpdated": "2026-11-27 00:04:35 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -175,17 +175,17 @@
       "count": 0,
       "names": []
     },
-    "closesToday": 10,
+    "closesToday": 0,
     "closesTotal": 69,
     "quotedCloses": 62,
     "unquotedCloses": 7,
-    "closesTodayQuoted": 10,
+    "closesTodayQuoted": 0,
     "closesTodayUnquoted": 0,
     "tpTriggered": 30,
     "slTriggered": 0,
     "staleTriggered": 11,
     "feesUsdTotal": 33.2142,
-    "feesUsdToday": 5.3144,
+    "feesUsdToday": 0.0,
     "unquotedPnlUsd": -33.4948,
     "reshapes": 326,
     "wins": 32,
@@ -193,7 +193,7 @@
     "lastScanWib": "2026-11-26 07:34:26 WIB",
     "lastScanFetched": 142,
     "lastScanPass": 0,
-    "openTertundaToday": 39,
+    "openTertundaToday": 0,
     "fetchFailedTotal": 0,
     "cycleErrorsTotal": 0,
     "exitReasonsSeen": {
@@ -320,7 +320,7 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-26 23:59:33 WIB"
+    "lastUpdated": "2026-11-27 00:04:35 WIB"
   },
   "v3": {
     "label": "VAULT",
@@ -369,7 +369,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-26 23:59:33 WIB",
+    "lastUpdated": "2026-11-27 00:04:35 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: VAULT SCREEN_ONLY berjalan (cron 30 mnt s.d. 20 Nov 00:45 WIB, lalu DRY_RUN 24 jam otomatis); circuit breaker lolos, 52 unit test lulus; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -407,7 +407,7 @@
     "losses": 64,
     "winRate": 53.3,
     "closesTotal": 137,
-    "asOf": "2026-11-26 23:59:33 WIB"
+    "asOf": "2026-11-27 00:04:35 WIB"
   },
   "leaderboard": {
     "order": [
@@ -415,7 +415,7 @@
       "v19"
     ],
     "leader": "v18",
-    "asOf": "2026-11-26 23:59:33 WIB"
+    "asOf": "2026-11-27 00:04:35 WIB"
   },
   "equityCurve": {
     "windowStart": "2026-11-19 07:36:54 WIB",
