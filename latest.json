@@ -1,5 +1,5 @@
 {
-  "generatedWib": "2026-11-26 22:19:31 WIB",
+  "generatedWib": "2026-11-26 22:24:32 WIB",
   "date": "2026-11-26",
   "note": "Reset ke-2 pada 19 Nov 2026 07:36:54 WIB (persetujuan user): POSITION_USDC 100 -> 30 via paper/settings.json kedua bot; modal awal tetap 100 USDC, maks 3 posisi $30 per bot. Jendela lama 18 Nov 19:38 -> 25 Nov 19:38 WIB dibatalkan (~12 jam, v1.8 +$9,11 / v1.9 -$1,18, 8 close) dan diarsipkan di dry-run/archive/2026-11-19-reset-30/. Jendela baru 19 Nov 07:36:54 WIB -> 26 Nov 07:36:54 WIB. Kedua bot membuka Rocco-SOL + STANK-SOL @ $29,90 masing-masing ~07:37 WIB.",
   "v18": {
@@ -159,7 +159,7 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-26 22:19:31 WIB"
+    "lastUpdated": "2026-11-26 22:24:32 WIB"
   },
   "v19": {
     "label": "v1.9",
@@ -320,7 +320,7 @@
       }
     ],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-26 22:19:31 WIB"
+    "lastUpdated": "2026-11-26 22:24:32 WIB"
   },
   "v3": {
     "label": "VAULT",
@@ -369,7 +369,7 @@
     "recentCloses": [],
     "lastScanRejects": [],
     "lastScanOpenResults": [],
-    "lastUpdated": "2026-11-26 22:19:31 WIB",
+    "lastUpdated": "2026-11-26 22:24:32 WIB",
     "productionMarker": false,
     "note": "belum mulai — validasi: VAULT SCREEN_ONLY berjalan (cron 30 mnt s.d. 20 Nov 00:45 WIB, lalu DRY_RUN 24 jam otomatis); circuit breaker lolos, 52 unit test lulus; start produksi ~21 Nov 2026.",
     "maxDrawdownPctUsd": null,
@@ -407,7 +407,7 @@
     "losses": 64,
     "winRate": 53.3,
     "closesTotal": 137,
-    "asOf": "2026-11-26 22:19:31 WIB"
+    "asOf": "2026-11-26 22:24:32 WIB"
   },
   "leaderboard": {
     "order": [
@@ -415,7 +415,7 @@
       "v19"
     ],
     "leader": "v18",
-    "asOf": "2026-11-26 22:19:31 WIB"
+    "asOf": "2026-11-26 22:24:32 WIB"
   },
   "equityCurve": {
     "windowStart": "2026-11-19 07:36:54 WIB",
